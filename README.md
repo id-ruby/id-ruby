@@ -6,12 +6,12 @@ ID Ruby adalah komunitas yang mewadahi pengguna Ruby di Indonesia.
 
 ## Langkah instalasi
     bundle install
-    jekyll serve --watch
+    bin/jekyll serve --watch
 
 ## Langkah penambahan logo perusahaan/startup
 
 1. Tambahkan file logo anda di folder `images` dengan format `logo_{nama_entitas}.png`.
 2. Buka file `_includes/_companies.html`.
-3. Tambahkan entitas anda sesuai urutan abjad. 
+3. Tambahkan entitas anda sesuai urutan abjad.
 4. Buat pull request
 5. Tunggu di merge :tada:
