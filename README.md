@@ -1,5 +1,5 @@
 # ID Ruby :heart: you
-Hi All :heart: :heart: :heart:
+Hi All :blue_heart: :green_heart: :purple_heart: :yellow_heart:
 
 Ruby adalah salah satu bahasa pemrograman expresif dengan sintaks yang bersih.
 ID Ruby adalah komunitas yang mewadahi pengguna Ruby di Indonesia.
