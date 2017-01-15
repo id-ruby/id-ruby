@@ -1,5 +1,5 @@
-# ID Ruby
-Hi All :heart:
+# ID Ruby :heart: you
+Hi All :heart: :heart: :heart:
 
 Ruby adalah salah satu bahasa pemrograman expresif dengan sintaks yang bersih.
 ID Ruby adalah komunitas yang mewadahi pengguna Ruby di Indonesia.
@@ -15,4 +15,3 @@ ID Ruby adalah komunitas yang mewadahi pengguna Ruby di Indonesia.
 3. Tambahkan entitas anda sesuai urutan abjad. 
 4. Buat pull request
 5. Tunggu di merge :tada:
-
