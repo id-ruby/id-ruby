@@ -13,8 +13,9 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     {% if page.site.gplus %}<link rel="publisher" href="https://plus.google.com/{{ site.inc.gplus }}">{% endif %} 
     {% if page.author.gplus %}<link rel="author" href="https://plus.google.com/{{ page.author.gplus }}">{% endif %}       
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}"/>
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <meta property="og:title" content="Komunitas Ruby Indonesia"/>
+    <meta property="og:url" content="http://ruby.id"/>
+    <meta property="og:description" content="Komunitas yang mendiskusikan tentang Ruby, Rails, dan hal-hal lainnya yang terkait.">
     {% if page.cover_image %}
     <meta property="og:image" content="{{ site.url }}/images/{{ page.cover_image }}"/>
     {% if page.main_image %}

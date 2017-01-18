@@ -7,7 +7,6 @@ section#box {
 
   h2 {
     font-size: 3em;
-    max-width: 60rem;
     text-align: center;
     margin: 0 auto 0.2em;
     color: #000;
@@ -15,58 +14,67 @@ section#box {
     line-height: 1.2;
   }
 
-  div {
-    float: left;
-    text-align: left;
-    margin: 2em 0 0 3%;
+  .companies {
+    div {
+      float: left;
+      text-align: left;
+      margin: 2em 0 0 3%;
 
-    h3 {
-      font-size: 1.5em;
-      max-width: 60rem;
-      margin-bottom: 9px;
-      margin-top: 30px;
-    }
+      h3 {
+        font-size: 1.5em;
+        margin-bottom: 9px;
+        margin-top: 30px;
+      }
 
-    img {
-       height: 100px;
-       object-fit: contain;
-       max-width: 250px;
-    }
+      img {
+         height: 100px;
+         object-fit: contain;
+         max-width: 250px;
+      }
 
-    p {
-      font-size: 1.2em;
-      color: #65777c;
-      margin: 0 auto 1.5em;
-      line-height: 1.45;
+      p {
+        font-size: 1.2em;
+        color: #65777c;
+        margin: 0 auto 1.5em;
+        line-height: 1.45;
+      }
     }
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1211px) {
    section#box {
-      div {
+      .companies div {
          width: 30%;
       }
    }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1212px) {
    section#box {
-      div {
-         width: 45%;
-      }
+     .companies {
+       overflow: hidden;
+       margin-left: 14%;
+       div { width: 35%; margin: 2em 0 0 6%; }
+     }
    }
 }
 
-@media (max-width: 577px) {
-   section#box div {
-      width: 100%;
-      text-align: center;
-      margin: 0;
-      margin-bottom: 20px;
+@media (max-width: 970px) {
+  section#box {
+    .companies {
+      margin-left: 0;
+      div {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
 
-      h3 {
-        margin-top: 10px;
+        h3 {
+          margin-top: 10px;
+        }
+
       }
-   }
+    }
+  }
 }

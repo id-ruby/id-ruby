@@ -37,7 +37,7 @@ inc:
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://incorporated.sendtoinc.com
+url:         http://ruby.id
 source:      .
 destination: ./_site
 plugins_dir:     ./_plugins
