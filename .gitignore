@@ -2,3 +2,6 @@ _site/
 .DS_Store
 *.swp
 *.swo
+.ruby-version
+.rbenv-gemsets
+.gems
