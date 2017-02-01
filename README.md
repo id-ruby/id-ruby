@@ -19,3 +19,9 @@ Untuk menjalankan sistem di local:
 3. Tambahkan entitas anda sesuai urutan abjad.
 4. Buat pull request
 5. Tunggu di merge :tada:
+
+## Cara rebuild
+
+```
+rake site:publish
+```
