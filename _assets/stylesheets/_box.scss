@@ -40,6 +40,12 @@ section#box {
         margin: 0 auto 1.5em;
         line-height: 1.45;
       }
+
+      a {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+      }
     }
   }
 }
