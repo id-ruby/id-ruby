@@ -4,37 +4,37 @@ inc:
   subtitle:     "Indonesian Ruby Community"
   cover_image:  blog-cover.JPG
   logo:         logo.png
-  
+
   # Company information
   company:      Ruby ID
   url:          http://ruby.id/
-  
+
   # Product Information
   product_link: "https://docs.google.com/forms/d/e/1FAIpQLScsqNIz6VOYzOPukfN9X9saS-PwgN16_d1N3N5vIKgIUgJj5A/viewform"
   tagline:      "RubyConf 2017"
-  
+
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
     shortname:  false
-  
+
   # Sharing settings
   sharing:
     twitter:    false
     facebook:   false
     gplus:      false
     hn:         false
-    
-  
- # Analytics     
+
+
+ # Analytics
   analytics:
     google: false # Add tracking code in _includes/_google-analytics.html
-      
-      
+
+
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
   # google_font: 'Droid+Sans:400,700'
-  
+
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 url:         http://ruby.id
@@ -105,7 +105,8 @@ redcloth:
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets
 #
 assets:
-
+  assets:
+    - main.css
   dirname: assets
   baseurl: /assets/
   sources:
