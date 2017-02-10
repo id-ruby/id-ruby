@@ -33,6 +33,15 @@ a:hover {
   margin-bottom: 1px dotted red;
 }
 
+#logo img {
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+#logo {
+}
+
 #wrapper {
   height: auto;
   position: absolute;
@@ -100,6 +109,8 @@ a:hover {
 /* END CONTAINER PART ============================== */
 
 /* START HEADER PART ============================== */
+#header { background: whitesmoke; }
+
 #header #logo-cta {
   height: 185px;
   background: url(bg-header.png) no-repeat 88px 100%;
@@ -158,7 +169,7 @@ a:hover {
 /* END SIDEBAR PART ============================== */
 
 /* START CONTENT PART ============================== */
-#body #content {
+#content {
   float: left;
   width: 656px;
   margin: 35px 0 0;
@@ -172,6 +183,10 @@ a:hover {
   letter-spacing: -1px;
   padding: 0 0 9px 3px;
   border-bottom: 2px solid #c22234;
+}
+
+#body #content img {
+  width: 100%;
 }
 
 #body #content p {
