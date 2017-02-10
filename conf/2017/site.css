@@ -189,6 +189,10 @@ a:hover {
   width: 100%;
 }
 
+#body #content ul {
+  padding: 0 40px;
+}
+
 #body #content p {
   font-size: 14px;
   line-height: 24px;
