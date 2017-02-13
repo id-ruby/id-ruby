@@ -135,7 +135,8 @@ a:hover {
 /* START SIDEBAR PART ============================== */
 #body #sidebar {
   float: left;
-  width: 260px;
+  width: 160px;
+  padding-right: 100px;
   padding-bottom: 100px;
   min-height: 500px;
   position: relative;
@@ -145,7 +146,6 @@ a:hover {
 #body #sidebar ul { list-style: none; }
 #body #sidebar ul li.widget_sponsor { margin: 35px 0 0 ; }
 #body #sidebar ul li h3 {
-  width: 160px;
   padding: 7px 2px;
   border-bottom: 1px solid #c9c9c9;
   font-size: 10px;
@@ -153,7 +153,6 @@ a:hover {
 }
 #body #sidebar ul li .sponsors {
   min-height: 40px;
-  width: 160px;
 }
 #body #sidebar ul li .sponsors .cat-post-item {
   margin: 30px 0 20px;
@@ -172,7 +171,7 @@ a:hover {
 #content {
   float: left;
   width: 656px;
-  margin: 35px 0 0;
+  margin: 0px 0px;
   padding-bottom: 100px;
 }
 
@@ -183,6 +182,7 @@ a:hover {
   letter-spacing: -1px;
   padding: 0 0 9px 3px;
   border-bottom: 2px solid #c22234;
+  margin-top: 0px;
 }
 
 #body #content img {
@@ -255,6 +255,43 @@ a:hover {
   margin: 0 auto;
 }
 /* END BOTTOM-BG PART ============================== */
+
+/* START TABLE PART ============================== */
+table.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 2rem;
+  background-color: #fff;
+
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+}
+
+table.table thead:first-child tr th { border-top: 0; }
+
+table.table thead tr th, table.table tbody tr td {
+  text-align: left;
+  padding: 1.6rem;
+  vertical-align: top;
+  border-top: 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+table.table tr th {
+  font-weight: 400;
+  color: #757575;
+  vertical-align: bottom;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+
+table.table tbody tr:nth-child(odd) td {
+  background-color: #e1f5fe;
+}
+
+/* END TABLE PART ============================== */
 
 .clearit {
   height: 0;
