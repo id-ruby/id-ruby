@@ -10,8 +10,8 @@ inc:
   url:          http://ruby.id/
 
   # Product Information
-  product_link: "https://docs.google.com/forms/d/e/1FAIpQLScsqNIz6VOYzOPukfN9X9saS-PwgN16_d1N3N5vIKgIUgJj5A/viewform"
-  tagline:      "RubyConf 2017"
+  product_link: "http://ruby.id/conf"
+  tagline:      "We love Ruby"
 
   # Comments
   disqus:
