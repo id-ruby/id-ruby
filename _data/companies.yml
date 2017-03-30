@@ -1,3 +1,8 @@
+- name: 41studio
+  url: https://www.41studio.com/
+  image_url: images/logo_41studio.png
+  description: Ruby on Rails software development company which provides Custom Software Solutions for Web and Mobile to suit your needs.
+
 - name: Alodokter.com
   url: http://www.alodokter.com
   image_url: images/logo_alodokter.png
