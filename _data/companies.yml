@@ -8,6 +8,11 @@
   image_url: images/logo_alodokter.png
   description: Alodokter.com adalah situs kesehatan No. 1 di Indonesia yang menggunakan Ruby sebagai back-end untuk App dan Web.
 
+- name: BBM
+  url: https://careers.bbm.com/
+  image_url: images/logo_bbm.png
+  description: Operated by KMK Online as a stand-alone business with teams operating from Indonesia, Singapore, Canada, UAE and South Africa.
+
 - name: Bukalapak
   url: http://bukalapak.com
   image_url: images/logo_bukalapak.png
@@ -43,6 +48,21 @@
   image_url: images/logo_jualo.png
   description: Jualo is Indonesia's fastest growing and best-in-class eclassifieds marketplace
 
+- name: Karir
+  url: https://www.karir.com/
+  image_url: images/logo_karir.jpg
+  description: Indonesia's leading career management and job search portal.
+
+- name: KlikDokter
+  url: https://www.klikdokter.com/
+  image_url: images/logo_klikdokter.png
+  description: Partnership of product and engineering development between Kalbe and KMK Online.
+
+- name: KMK Online
+  url: https://www.kmkonline.co.id/careers
+  image_url: images/logo_kmk.png
+  description: Currently owns and operates BBM, Liputan6.com, Vidio.com, Bintang.com, Bola.com and KlikDokter.com.
+
 - name: Midtrans
   url: http://midtrans.com
   image_url: images/logo_midtrans.png
@@ -72,6 +92,11 @@
   url: http://starqle.com
   image_url: images/logo_starqle.png
   description: Software consulting company specialized in delivering large scale information systems and applications.
+
+- name: Vidio
+  url: https://www.vidio.com
+  image_url: images/logo_vidio.png
+  description: No. 1 Indonesia's video sharing site owned and operated by KMK Online.
 
 - name: Virkea
   url: http://virkea.com
