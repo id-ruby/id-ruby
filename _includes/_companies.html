@@ -5,7 +5,6 @@
   <div class="companies">
     {% for company in site.data.companies %}
       <div>
-<<<<<<< HEAD
           <a href="http://www.alodokter.com">
              <image src="images/logo_alodokter.png">
           </a>
@@ -18,13 +17,11 @@
          </a>
          <h3>Bukalapak</h3>
          <p>The biggest e-commerce marketplace in Indonesia.</p>
-=======
         <a href="{{ company.url }}">
           <image src="{{ company.image_url }}">
         </a>
         <h3>{{ company.name }}</h3>
         <p>{{ company.description }}</p>
->>>>>>> upstream/master
       </div>
     {% endfor %}
   </div>
