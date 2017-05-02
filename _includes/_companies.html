@@ -5,18 +5,6 @@
   <div class="companies">
     {% for company in site.data.companies %}
       <div>
-          <a href="http://www.alodokter.com">
-             <image src="images/logo_alodokter.png">
-          </a>
-          <h3>Alodokter.com</h3>
-          <p>Alodokter.com adalah situs kesehatan No. 1 di Indonesia.</p>
-      </div>
-      <div>
-         <a href="http://bukalapak.com">
-            <image src="images/logo_bukalapak.png">
-         </a>
-         <h3>Bukalapak</h3>
-         <p>The biggest e-commerce marketplace in Indonesia.</p>
         <a href="{{ company.url }}">
           <image src="{{ company.image_url }}">
         </a>
