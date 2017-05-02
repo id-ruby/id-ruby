@@ -1,0 +1,114 @@
+- name: 41studio
+  url: https://www.41studio.com/
+  image_url: images/logo_41studio.png
+  description: Ruby on Rails software development company which provides Custom Software Solutions for Web and Mobile to suit your needs.
+
+- name: Alodokter.com
+  url: http://www.alodokter.com
+  image_url: images/logo_alodokter.png
+  description: Alodokter.com adalah situs kesehatan No. 1 di Indonesia yang menggunakan Ruby sebagai back-end untuk App dan Web.
+
+- name: BBM
+  url: https://careers.bbm.com/
+  image_url: images/logo_bbm.png
+  description: Operated by KMK Online as a stand-alone business with teams operating from Indonesia, Singapore, Canada, UAE and South Africa.
+
+- name: Bukalapak
+  url: http://bukalapak.com
+  image_url: images/logo_bukalapak.png
+  description: The biggest e-commerce marketplace in Indonesia.
+
+- name: Cookpad Indonesia
+  url: https://cookpad.com/id
+  image_url: images/logo_cookpad.png
+  description: Perusahaan teknologi global dengan misi membuat masak sehari-hari jadi menyenangkan.
+
+- name: CPXi
+  url: http://cpxi-asia.com/
+  image_url: images/logo_cpxi.png
+  description: CPXi is a growing, global digital media company which includes media executions, content creation, dan engagement strategies.
+
+- name: Forstok
+  url: https://www.forstok.com/
+  image_url: images/logo_forstok.png
+  description: FORSTOK is an operating system for multi-channel retail business. It automatically synchronizes inventory, orders, customers and financial data across channels.
+
+- name: GO-JEK
+  url: https://www.go-jek.com
+  image_url: images/logo_gojek.png
+  description: GO-JEK adalah sebuah perusahaan teknologi berjiwa sosial yang bertujuan untuk meningkatkan kesejahteraan pekerja di berbagai sektor informal di Indonesia.
+
+- name: HIJUP
+  url: https://www.hijup.com/
+  image_url: images/logo_hijup.png
+  description: Modest Fashion Online
+
+- name: Jualo
+  url: https://www.jualo.com
+  image_url: images/logo_jualo.png
+  description: Jualo is Indonesia's fastest growing and best-in-class eclassifieds marketplace
+
+- name: Karir
+  url: https://www.karir.com/
+  image_url: images/logo_karir.jpg
+  description: Indonesia's leading career management and job search portal.
+
+- name: KlikDokter
+  url: https://www.klikdokter.com/
+  image_url: images/logo_klikdokter.png
+  description: Partnership of product and engineering development between Kalbe and KMK Online.
+
+- name: KMK Online
+  url: https://www.kmkonline.co.id/careers
+  image_url: images/logo_kmk.png
+  description: Currently owns and operates BBM, Liputan6.com, Vidio.com, Bintang.com, Bola.com and KlikDokter.com.
+
+- name: Midtrans
+  url: http://midtrans.com
+  image_url: images/logo_midtrans.png
+  description: Melengkapi bisnis online di Indonesia dengan sistem pembayaran yang aman & nyaman
+
+- name: Peentar
+  url: http://peentar.com
+  image_url: images/logo_peentar.png
+  description: Platform Software-as-a-service untuk enterprise dengan fokus pada perangkat-perangkat IoT
+
+- name: Quipper
+  url: https://school.quipper.com/id/
+  image_url: images/logo_quipper.png
+  description: Creating a learning revolution with technology
+
+- name: Sejasa
+  url: http://www.sejasa.com
+  image_url: images/logo_sejasa.png
+  description: Sejasa is a service marketplace to find trusted and recommended service providers in Indonesia.
+
+- name: Sribulancer
+  url: https://www.sribulancer.com/
+  image_url: images/logo_sribulancer.png
+  description: Sribulancer membantu bisnis dan konsumer untuk mencari freelancer bertalenta di seluru dunia.
+
+- name: Starqle
+  url: http://starqle.com
+  image_url: images/logo_starqle.png
+  description: Software consulting company specialized in delivering large scale information systems and applications.
+
+- name: Vidio
+  url: https://www.vidio.com
+  image_url: images/logo_vidio.png
+  description: No. 1 Indonesia's video sharing site owned and operated by KMK Online.
+
+- name: Virkea
+  url: http://virkea.com
+  image_url: images/logo_virkea.png
+  description: Enterprise-grade E-Procurement solution provider.
+
+- name: Wego
+  url: https://www.wego.co.id
+  image_url: images/logo_wego.jpg
+  description: Wego is a travel search engine. It operates 52 country sites (CcTLD) in over 20 languages and local currencies.
+
+- name: WGS
+  url: https://wgs.co.id/
+  image_url: images/logo_wgs.png
+  description: One of the largest IT service company offering programming outsourcing, personalized business and enterprise solutions.

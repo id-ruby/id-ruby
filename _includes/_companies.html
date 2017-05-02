@@ -1,9 +1,11 @@
 <section id="box">
-   <h2>Pengguna Ruby</h2>
-   <p>Startup/Perusahaan pengguna Ruby dan Rails di Indonesia</p>
+  <h2>Pengguna Ruby</h2>
+  <p>Startup/Perusahaan pengguna Ruby dan Rails di Indonesia</p>
 
-   <div class="companies">
+  <div class="companies">
+    {% for company in site.data.companies %}
       <div>
+<<<<<<< HEAD
           <a href="http://www.alodokter.com">
              <image src="images/logo_alodokter.png">
           </a>
@@ -16,118 +18,14 @@
          </a>
          <h3>Bukalapak</h3>
          <p>The biggest e-commerce marketplace in Indonesia.</p>
+=======
+        <a href="{{ company.url }}">
+          <image src="{{ company.image_url }}">
+        </a>
+        <h3>{{ company.name }}</h3>
+        <p>{{ company.description }}</p>
+>>>>>>> upstream/master
       </div>
-
-      <div>
-         <a href="https://cookpad.com/id">
-            <image src="images/logo_cookpad.png">
-         </a>
-         <h3>Cookpad Indonesia</h3>
-         <p>Perusahaan teknologi global dengan misi membuat masak sehari-hari jadi menyenangkan.</p>
-      </div>
-
-      <div>
-         <a href="http://cpxi-asia.com/">
-            <image src="images/logo_cpxi.png">
-         </a>
-         <h3>CPXi</h3>
-         <p>CPXi is a growing, global digital media company which includes media executions, content creation, dan engagement strategies.</p>
-      </div>
-
-      <div>
-         <a href="https://www.forstok.com/">
-            <image src="images/logo_forstok.png">
-         </a>
-         <h3>Forstok</h3>
-         <p>FORSTOK is an operating system for multi-channel retail business. It automatically synchronizes inventory, orders, customers and financial data across channels.</p>
-      </div>
-
-      <div>
-         <a href="https://www.go-jek.com">
-            <image src="images/logo_gojek.png">
-         </a>
-         <h3>GO-JEK</h3>
-         <p>GO-JEK adalah sebuah perusahaan teknologi berjiwa sosial yang bertujuan untuk meningkatkan kesejahteraan pekerja di berbagai sektor informal di Indonesia.</p>
-      </div>
-
-      <div>
-         <a href="https://www.hijup.com/">
-            <image src="images/logo_hijup.png">
-         </a>
-         <h3>HIJUP</h3>
-         <p>Modest Fashion Online</p>
-      </div>
-
-      <div>
-         <a href="https://www.jualo.com">
-            <image src="images/logo_jualo.png">
-         </a>
-         <h3>Jualo</h3>
-         <p>Jualo is Indonesia's fastest growing and best-in-class eclassifieds marketplace</p>
-      </div>
-
-      <div>
-         <a href="http://midtrans.com">
-            <image src="images/logo_midtrans.png">
-         </a>
-         <h3>Midtrans</h3>
-         <p>Melengkapi bisnis online di Indonesia dengan sistem pembayaran yang aman &amp; nyaman</p>
-      </div>
-
-      <div>
-         <a href="https://school.quipper.com/id/">
-            <image src="images/logo_quipper.png">
-         </a>
-         <h3>Quipper</h3>
-         <p>Creating a learning revolution with technology</p>
-      </div>
-
-      <div>
-         <a href="http://www.sejasa.com">
-            <image src="images/logo_sejasa.png">
-         </a>
-         <h3>Sejasa</h3>
-         <p>Sejasa is a service marketplace to find trusted and recommended service providers in Indonesia.</p>
-      </div>
-
-      <div>
-         <a href="https://www.sribulancer.com/">
-            <image src="images/logo_sribulancer.png">
-         </a>
-         <h3>Sribulancer</h3>
-         <p>Sribulancer membantu bisnis dan konsumer untuk mencari freelancer bertalenta di seluru dunia.</p>
-      </div>
-
-      <div>
-         <a href="http://starqle.com">
-            <image src="images/logo_starqle.png">
-         </a>
-         <h3>Starqle</h3>
-         <p>Software consulting company specialized in delivering large scale information systems and applications.</p>
-      </div>
-
-      <div>
-         <a href="http://virkea.com">
-            <image src="images/logo_virkea.png">
-         </a>
-         <h3>Virkea</h3>
-         <p>Enterprise-grade E-Procurement solution provider.</p>
-      </div>
-
-      <div>
-         <a href="https://www.wego.co.id">
-            <image src="images/logo_wego.jpg">
-         </a>
-         <h3>Wego</h3>
-         <p>Wego is a travel search engine. It operates 52 country sites (CcTLD) in over 20 languages and local currencies.</p>
-      </div>
-
-      <div>
-         <a href="https://wgs.co.id/">
-            <image src="images/logo_wgs.png">
-         </a>
-         <h3>WGS</h3>
-         <p>One of the largest IT service company offering programming outsourcing, personalized business and enterprise solutions.</p>
-      </div>
-   </div>
+    {% endfor %}
+  </div>
 </section>
