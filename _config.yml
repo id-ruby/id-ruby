@@ -106,7 +106,9 @@ redcloth:
 #
 assets:
   assets:
+    - "*.png"
     - main.css
+    - conf.css
   dirname: assets
   baseurl: /assets/
   sources:
