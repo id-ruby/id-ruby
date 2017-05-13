@@ -6,8 +6,26 @@
   </head>
 
   <body>
+  	<section class="site-nav">
+      <header>
+        <nav id="navigation">
+          <a href="{% link conf/2017/index.html %}">RubyConf ID 2017</a>
+          <a href="{% link conf/2017/speakers.md %}">Speakers</a>
+          <a href="/cfp">Submit CFP</a>
+          <a href="{% link conf/2017/about.md %}">About</a>
+          <a href="{% link conf/2017/venue.md %}">Venue</a>
+          <a href="{% link conf/2017/sponsorships.md %}">Sponsorships</a>
+          <a href="{% link conf/2017/coc.md %}">Code of Conduct</a>
+        </nav>
+      </header>
+    </section>
+
     <div id='content'>
-      {{ content }}
+      <div class="container">
+        {{ content }}
+      </div>
     </div>
+
+    {% include _footer.html %}
   </body>
 </html>
