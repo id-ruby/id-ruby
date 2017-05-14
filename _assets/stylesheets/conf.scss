@@ -10,6 +10,11 @@ $fontheadings: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $text: #21272d;
 $textmuted: #848484;
 $accent: #2077b2;
+$lighter_red: #fca9b2;
+$darker_red: #ce757f;
+
+// Unique colors
+$ruby_color: #430c12;
 
 
 /* IMPORT CSS FILES */
@@ -21,3 +26,4 @@ $accent: #2077b2;
 @import "syntax";
 @import "responsive";
 @import "box";
+@import "conf/base";
