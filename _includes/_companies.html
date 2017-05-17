@@ -1,34 +1,16 @@
-<section id='box'>
-   <h2>Pengguna Ruby</h2>
-   <p>Startup/Perusahaan pengguna Ruby dan Rails di Indonesia</p>
+<section id="box">
+  <h2>Pengguna Ruby</h2>
+  <p>Startup/Perusahaan pengguna Ruby dan Rails di Indonesia</p>
 
-   <div>
-      <image src="images/logo_cookpad.png">
-      <h3>Cookpad</h3>
-      <p>Lorem ipsum dolor sit amet adispicim elit uminum aeteat mediscoeur unam pacit.</p>
-   </div>
-
-   <div>
-      <image src="images/logo_cpxi.png">
-      <h3>CPXi</h3>
-      <p>Lorem ipsum dolor sit amet adispicim elit uminum aeteat mediscoeur unam pacit.</p>
-   </div>
-
-   <div>
-      <image src="images/logo_midtrans.png">
-      <h3>Midtrans</h3>
-      <p>E-commerce enablement yang bergerak salah satunya di bidang Payment Gateaway.</p>
-   </div>
-
-   <div>
-      <image src="images/logo_starqle.png">
-      <h3>Starqle</h3>
-      <p>Software consulting company specialized in delivering large scale information systems and applications.</p>
-   </div>
-
-   <div>
-      <image src="images/logo_virkea.png">
-      <h3>Virkea</h3>
-      <p>Enterprise-grade E-Procurement solution provider.</p>
-   </div>
+  <div class="companies">
+    {% for company in site.data.companies %}
+      <div>
+        <a href="{{ company.url }}">
+          <image src="{{ company.image_url }}">
+        </a>
+        <h3>{{ company.name }}</h3>
+        <p>{{ company.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
 </section>

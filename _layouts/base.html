@@ -4,32 +4,36 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} &mdash; {{ site.inc.title }}{% else %}{{ site.inc.title }} &mdash; {{ site.inc.subtitle }}{% endif %}</title>
-    {% if site.inc.google_font %}<link href="https://fonts.googleapis.com/css?family={{ site.inc.google_font }}" rel="stylesheet" type="text/css">{% endif %}
-    {% stylesheet main %}
+
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/{{ site.inc.logo }}"/>
     <link href="{{ site_url }}/feed.xml" rel="alternate" type="application/rss+xml" title="{{ site.inc.title }}" />
+
+    {% if site.inc.google_font %}<link href="https://fonts.googleapis.com/css?family={{ site.inc.google_font }}" rel="stylesheet" type="text/css">{% endif %}
+    <link href="{{ "/assets/main.css" }}?{{site.time | date: '%s%N'}}" rel="stylesheet">
+    
     <meta name="title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-    {% if page.site.gplus %}<link rel="publisher" href="https://plus.google.com/{{ site.inc.gplus }}">{% endif %} 
-    {% if page.author.gplus %}<link rel="author" href="https://plus.google.com/{{ page.author.gplus }}">{% endif %}       
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}"/>
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    {% if page.site.gplus %}<link rel="publisher" href="https://plus.google.com/{{ site.inc.gplus }}">{% endif %}
+    {% if page.author.gplus %}<link rel="author" href="https://plus.google.com/{{ page.author.gplus }}">{% endif %}
+    <meta property="og:title" content="Komunitas Ruby Indonesia"/>
+    <meta property="og:url" content="http://ruby.id"/>
+    <meta property="og:description" content="Komunitas yang mendiskusikan tentang Ruby, Rails, dan hal-hal lainnya yang terkait.">
     {% if page.cover_image %}
     <meta property="og:image" content="{{ site.url }}/images/{{ page.cover_image }}"/>
     {% if page.main_image %}
-    <meta property="og:image" content="{{ site.url }}/images/{{ page.main_image }}"/>  
+    <meta property="og:image" content="{{ site.url }}/images/{{ page.main_image }}"/>
     {% endif %}
-    <meta property="og:image" content="{{ site.url }}/images/{{ site.inc.logo }}"/>   
+    <meta property="og:image" content="{{ site.url }}/images/{{ site.inc.logo }}"/>
     {% endif %}
     {% if page.excerpt %}
     <meta property="og:description" content="{{ page.excerpt }}"/>
     <meta name="description" content="{{ page.excerpt }}"/>
     {% endif %}
-    <meta property="og:site_name" content="{{ site.inc.title }}">     
+    <meta property="og:site_name" content="{{ site.inc.title }}">
 </head>
 <body>
-    
+
 <section class="site-nav">
     <header>
         <nav id="navigation">
@@ -39,21 +43,15 @@
         </nav>
         {% if site.inc.tagline or site.inc.product_url %}<nav class="tagline">
             {% if site.inc.tagline %}<span>{{ site.inc.tagline }}</span>{% endif %}
-            {% if site.inc.product_link %}<a href="{{ site.inc.product_link }}" class="btn btn-outline">Learn More</a>{% endif %}
+            {% if site.inc.product_link %}<a href="{{ site.inc.product_link }}" class="btn btn-outline">RubyConf ID 2017</a>{% endif %}
         </nav>{% endif %}
     </header>
 </section>
 
 {{ content }}
 
-<footer class="site-footer">
-    <div class="container">
-        ID-Ruby
-        <p>Incorporated theme by <a href="https://sendtoinc.com">Inc</a></p>
-    </div>
-</footer>
+{% include _footer.html %}
 
 {% include _scripts.html %}
-
 </body>
 </html>
