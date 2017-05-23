@@ -9,8 +9,6 @@ title: Code of Conduct
 
 <h2>Butuh Bantuan?</h2>
 
-<p>You have our contact details in the emails we&#39;ve sent.</p>
-
 <p>Detail kontak sudah kami kirimkan melalui email.</p>
 
 <h2>Versi Ringkas</h2>
@@ -27,12 +25,8 @@ title: Code of Conduct
 
 <p>Jika peserta terlibat pelecehan, penyelenggara konferensi akan mengambil langkah yang dianggap perlu, termasuk memberikan peringatan kepada penyerang atau diusir dari konferensi tanpa pengembalian dana.</p>
 
-<p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they&#39;ll be wearing branded t-shirts.</p>
-
 <p>Jika kamu dilecehkan, melihat orang lain dilecehkan, atau punya kepentingan lainnya, silakan hubungi staf penyelenggara segera. Panitia dapat dikenali dengan kaos khusus panitia yang digunakan.</p>
 
 <p>Panitia bersedia dengan senang hati membantu peserta untuk menghubungi petugas keamanan gedung/tempat acara atau penegak hukum, menyediakan pengawalan, atau bantuan lain untuk mereka yang mengalami pelecehan supaya merasa aman selama konferensi berlangsung. Kami menghargai kedatanganmu.</p>
-
-<p>We expect participants to follow these rules at conference and workshop venues and conference-related social events.</p>
 
 <p>Kami berharap panitia untuk mengikuti aturan-aturan tersebut di konferensi ini dan di tempat workshopo dan acara sosial lain yang berkaitan dengan konferensi ini.</p>
