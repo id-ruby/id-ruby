@@ -3,7 +3,7 @@
   <p>Startup/Perusahaan pengguna Ruby dan Rails di Indonesia</p>
 
   <div class="companies">
-    {% for company in site.data.companies %}
+    {% for company in site.data.companies 
       <div>
         <a href="{{ company.url }}">
           <image src="{{ company.image_url }}">
