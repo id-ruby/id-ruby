@@ -6,7 +6,7 @@
 - name: Alodokter.com
   url: http://www.alodokter.com
   image_url: images/logo_alodokter.png
-  description: Alodokter.com adalah situs kesehatan No. 1 di Indonesia yang menggunakan Ruby sebagai back-end untuk App dan Web.
+  description: Alodokter.com adalah situs kesehatan No. 1 di Indonesia.
 
 - name: BBM
   url: https://careers.bbm.com/
@@ -67,6 +67,11 @@
   url: http://midtrans.com
   image_url: images/logo_midtrans.png
   description: Melengkapi bisnis online di Indonesia dengan sistem pembayaran yang aman & nyaman
+
+- name: Mitrais
+  url: https://www.mitrais.com
+  image_url: images/logo_mitrais.png
+  description: Mitrais is a technology company with offices in Indonesia, Australia, Singapore, and Vietnam. In business since 1991, we have written software or installed systems for nearly 500 clients.
 
 - name: Peentar
   url: http://peentar.com
