@@ -53,7 +53,7 @@ limit_posts: 0
 highlighter:    true
 
 permalink:     pretty
-paginate_path: 'page:num'
+paginate_path: '/blog/page:num/'
 paginate: 10
 
 markdown:      kramdown
