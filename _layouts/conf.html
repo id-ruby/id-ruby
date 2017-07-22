@@ -1,31 +1,16 @@
 {% assign base = "/conf/2017" %}
 <html>
   <head>
-    <title>RubyConf 2017</title>
+    <title>RubyConf Indonesia 2017 | Home</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="{{ "/assets/conf.css" }}?{{site.time | date: '%s%N'}}" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
   </head>
 
   <body>
-  	<section class="site-nav">
-      <header>
-        <nav id="navigation">
-          <a href="{% link conf/2017/index.html %}">RubyConf ID 2017</a>
-          <a href="{% link conf/2017/speakers.md %}">Speakers</a>
-          <a href="/cfp">Submit CFP</a>
-          <a href="{% link conf/2017/about.md %}">About</a>
-          <a href="{% link conf/2017/venue.md %}">Venue</a>
-          <a href="{% link conf/2017/sponsorships.md %}">Sponsorships</a>
-          <a href="{% link conf/2017/coc.md %}">Code of Conduct</a>
-        </nav>
-      </header>
-    </section>
-
-    <div id='content'>
-      <div class="container">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include _footer.html %}
+    {{ content }}
   </body>
 </html>

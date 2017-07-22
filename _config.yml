@@ -105,6 +105,7 @@ redcloth:
 #
 assets:
   assets:
+    - "*.jpg"
     - "*.png"
     - main.css
     - conf.css
