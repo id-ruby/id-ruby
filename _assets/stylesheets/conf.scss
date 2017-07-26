@@ -113,9 +113,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   padding-left: 15px;
 }
 
-@media (min-width: 768px) {
-  .col-xs-100 {
-    width: 100%;
+@media (max-width: 480px) {
+  .col {
+    margin-bottom: 20px;
   }
 }
 
@@ -159,6 +159,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-left: 10%;
 }
 
+@media (max-width: 768px) {
+  .col-xs-100 {
+    width: 100%;
+  }
+}
+
 .bg-grey {
   background-color: #F2F2F2;
 }
@@ -166,7 +172,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .site-nav {
   margin-bottom: 0;
   background-color: #fff;
-  min-height: 100px;
+  height: auto;
   &.fixed-nav {
     z-index: 99;
     position: fixed;
@@ -177,9 +183,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .logo {
   float: left;
   padding: 20px;
+  width: 250px;
+  height: auto;
   a img {
-    width: 200px;
-    height: 50px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo {
+    width: 180px;
+    height: auto;
   }
 }
 
@@ -216,6 +230,59 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     float: right;
     position: relative;
     margin-top: 10px;
+  }
+  .navigation-collapse {
+    display:none;
+  }
+  .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border-color: #fff;
+    cursor: pointer;
+    img {
+      width: 25px;
+      height: auto;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .navigation-collapse {
+    display: block!important;
+    overflow: visible!important;
+  }
+  .navbar-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .site-nav {
+    .navigation {
+      float: left;
+      padding: 5px 0px 25px 0px;
+    }
+    .cfp-header {
+      float: none;
+      margin-button: 10px;
+      text-align: center;
+    }
+    nav {
+      float: none;
+      padding-left: 5px;
+      li {
+        float: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
   }
 }
 
@@ -340,6 +407,14 @@ p {
   }
 }
 
+@media (max-width: 767px) {
+  .rb-homebanner {
+    &.with-fixed-nav {
+      margin-top: 80px;
+    }
+  }
+}
+
 .rb-imgbanner {
   margin: 0;
   width: 100%;
@@ -369,6 +444,36 @@ p {
       color: #560b1d;
       line-height: 0;
       font-weight: 700;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .rb-imgbanner {
+    figcaption {
+      top: 50px;
+      left: 50px;
+      h1 {
+        font-size: 26px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .rb-imgbanner {
+    figcaption {
+      top: 20px;
+      left: 20px;
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
     }
   }
 }
@@ -418,6 +523,14 @@ p {
 section {
   width: 100%;
   margin-top: 70px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+@media (max-width: 480px) {
+  section {
+      margin-top: 30px;
+  }
 }
 
 .main-section {
@@ -496,10 +609,25 @@ section {
   padding: 45px 60px;
 }
 
+@media (max-width: 480px) {
+  .box-sr {
+    border-radius: 20px;
+    padding: 40px 45px;
+  }
+}
+
 .box-conduct {
   margin-top: -150px;
   padding-left: 150px;
   padding-right: 150px;
+  max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  .box-conduct {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .wrap-image {
@@ -549,6 +677,12 @@ section {
   margin: -30px 50px 0 50px;
 }
 
+@media (max-width: 480px) {
+  .venue-address {
+    margin: 0px;
+  }
+}
+
 table {
   background-color: transparent;
   border-spacing: 0;
@@ -569,6 +703,12 @@ table {
   padding: 10px 50px;
 }
 
+@media (max-width: 480px) {
+  .table td {
+      padding: 10px 20px;
+  }
+}
+
 .footer {
   float: left;
   width: 100%;
@@ -578,4 +718,10 @@ table {
   color: #000;
   text-align: center;
   background-color: #ec1c24;
+}
+
+@media (max-width: 480px) {
+  .hidden-xs {
+    display:none;
+  }
 }

@@ -107,6 +107,7 @@ assets:
   assets:
     - "*.jpg"
     - "*.png"
+    - "*.svg"
     - main.css
     - conf.css
   dirname: assets

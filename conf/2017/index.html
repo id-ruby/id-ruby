@@ -8,10 +8,13 @@ title: RubyConf ID 2017
   <div class="container">
     <div class="logo">
       <a href="">
-        <img src="{{ "/assets/conf/logo_rubyconfid_2017.png" }}">
+        <img src="{{ '/assets/conf/logo_rubyconfid_2017.png' }}">
       </a>
     </div>
-    <div class="navigation">
+    <button class="navbar-toggle" id='buttonToggle' data-target="#navCollapse">
+      <img src="{{ '/assets/conf/icon-bars.svg' }}">
+    </button>
+    <div class="navigation navigation-collapse" id="navCollapse">
       <div class="cfp-header">
         <a href="/cfp" target="_blank" class="button button-round button-red">CALL FOR PAPER</a>
       </div>
@@ -233,7 +236,7 @@ title: RubyConf ID 2017
         </div>
       </div>
       <div class="row">
-        <div class="col col-sm-15 col-xs-100">&nbsp;</div>
+        <div class="col col-sm-15 col-xs-100 hidden-xs">&nbsp;</div>
         <div class="col col-sm-80 col-xs-100">
           <div class="col col-sm-100 col-xs-100">
             <div class="box-sr venue-address">
@@ -262,7 +265,7 @@ title: RubyConf ID 2017
         </div>
       </div>
       <div class="row">
-        <div class="col col-sm-15 col-xs-100">
+        <div class="col col-sm-15 col-xs-100 hidden-xs">
           <p>&nbsp;</p>
         </div>
         <div class="col col-sm-80 col-xs-100" style="margin-top: 30px;">
@@ -382,6 +385,10 @@ title: RubyConf ID 2017
     $('#showConduct').click(function(event){
         event.preventDefault();
         $('#moreConduct').toggle();
+    });
+    $('#buttonToggle').click(function(){
+      var target = $(this).data('target');
+      $(target).fadeToggle();
     });
   });
 </script>
