@@ -25,6 +25,7 @@ title: RubyConf ID 2017
           <li><a href="#venue">VENUE</a<</li>
           <li><a href="#committee">COMMITTEE</a></li>
           <li><a href="#conduct">CONDUCT</a></li>
+          <li><a href="#sponsors">SPONSORS</a></li>
         </ul>
       </nav>
     </div>
@@ -331,7 +332,7 @@ title: RubyConf ID 2017
   </section>
   <!-- #### END COMMITTEE SECTION #### -->
 
-  <!-- #### START ABOUT SECTION #### -->
+  <!-- #### START CONDUCT SECTION #### -->
   <section id="conduct" class="main-section">
     <div class="container">
       <div class="row">
@@ -366,7 +367,75 @@ title: RubyConf ID 2017
       </div>
     </div>
   </section>
-  <!-- #### END ABOUT SECTION #### -->
+  <!-- #### END CONDUCT SECTION #### -->
+
+  <!-- #### START SPONSORS SECTION #### -->
+  <section id="sponsors" class="main-section bg-grey">
+    <div class="container">
+      <div class="row">
+        {% if site.data.conf.platinum_sponsors.size > 0 %}
+          <div class="col col-sm-100 text-center">
+            <p class="big-text-2">Our Platinum Sponsors</p>
+          </div>
+        <div class="col col-sm-100 wrap-sponsor text-center">
+          {% for sponsor in site.data.conf.platinum_sponsors %}
+          <span class="client-border">
+            <a href="{{ sponsor.url }}" target="_blank">
+              <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}" width="350" height="250">
+            </a>
+          </span>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if site.data.conf.gold_sponsors.size > 0 %}
+        <div class="col col-sm-100 text-center">
+          <p class="big-text-2">Our Gold Sponsors</p>
+        </div>
+        <div class="col col-sm-100 wrap-sponsor text-center">
+          {% for sponsor in site.data.conf.gold_sponsors %}
+          <span class="client-border">
+            <a href="{{ sponsor.url }}" target="_blank">
+              <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}" width="350" height="250">
+            </a>
+          </span>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if site.data.conf.silver_sponsors.size > 0 %}
+        <div class="col col-sm-100 text-center">
+          <p class="big-text-2">Our Silver Sponsors</p>
+        </div>
+        <div class="col col-sm-100 wrap-sponsor text-center">
+          {% for sponsor in site.data.conf.silver_sponsors %}
+          <span class="client-border">
+            <a href="{{ sponsor.url }}" target="_blank">
+              <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}" width="200" height="150">
+            </a>
+          </span>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if site.data.conf.digital_sponsors.size > 0 %}
+        <div class="col col-sm-100 text-center">
+          <p class="big-text-2">Our Digital Sponsors</p>
+        </div>
+        <div class="col col-sm-100 wrap-sponsor text-center">
+          {% for sponsor in site.data.conf.digital_sponsors %}
+          <span class="client-border">
+            <a href="{{ sponsor.url }}" target="_blank">
+              <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}" width="150" height="100">
+            </a>
+          </span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+  <!-- #### END SPONSORS SECTION #### -->
 </div>
 
 <footer class="footer">

@@ -63,6 +63,10 @@ a {
   }
 }
 
+img {
+  vertical-align: middle;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -167,6 +171,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .bg-grey {
   background-color: #F2F2F2;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .site-nav {
@@ -709,12 +717,34 @@ table {
   }
 }
 
+.wrap-sponsor {
+  margin-bottom: 50px;
+}
+
+@media(max-width: 767px) {
+  .wrap-sponsor {
+    margin-bottom: 30px;
+  }
+}
+
+.client-border {
+    display: inline-block;
+    margin: 0 30px 30px;
+    padding: 30px 50px;
+    border: 1px solid rgba(0,0,0,.09);
+}
+
+@media (max-width: 992px) {
+  .client-border {
+    margin: 30px;
+  }
+}
+
 .footer {
   float: left;
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-top: 100px;
   color: #000;
   text-align: center;
   background-color: #ec1c24;
