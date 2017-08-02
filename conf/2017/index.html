@@ -379,11 +379,11 @@ title: RubyConf ID 2017
           </div>
         <div class="col col-sm-100 wrap-sponsor text-center">
           {% for sponsor in site.data.conf.platinum_sponsors %}
-          <span class="client-border">
+          <div class="client-border platinum-sponsors">
             <a href="{{ sponsor.url }}" target="_blank">
-              <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}" width="350" height="250">
+              <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
             </a>
-          </span>
+          </div>
           {% endfor %}
         </div>
         {% endif %}
@@ -394,11 +394,11 @@ title: RubyConf ID 2017
         </div>
         <div class="col col-sm-100 wrap-sponsor text-center">
           {% for sponsor in site.data.conf.gold_sponsors %}
-          <span class="client-border">
+          <div class="client-border gold-sponsors">
             <a href="{{ sponsor.url }}" target="_blank">
-              <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}" width="350" height="250">
+              <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
             </a>
-          </span>
+          </div>
           {% endfor %}
         </div>
         {% endif %}
@@ -409,11 +409,11 @@ title: RubyConf ID 2017
         </div>
         <div class="col col-sm-100 wrap-sponsor text-center">
           {% for sponsor in site.data.conf.silver_sponsors %}
-          <span class="client-border">
+          <div class="client-border silver-sponsors">
             <a href="{{ sponsor.url }}" target="_blank">
-              <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}" width="200" height="150">
+              <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
             </a>
-          </span>
+          </div>
           {% endfor %}
         </div>
         {% endif %}
@@ -426,7 +426,7 @@ title: RubyConf ID 2017
           {% for sponsor in site.data.conf.digital_sponsors %}
           <span class="client-border">
             <a href="{{ sponsor.url }}" target="_blank">
-              <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}" width="150" height="100">
+              <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
             </a>
           </span>
           {% endfor %}
