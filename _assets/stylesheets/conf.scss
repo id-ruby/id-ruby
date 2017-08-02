@@ -713,7 +713,7 @@ table {
 
 @media (max-width: 480px) {
   .table td {
-      padding: 10px 20px;
+      padding: 10px 10px;
   }
 }
 
@@ -733,10 +733,44 @@ table {
     padding: 30px 50px;
     border: 1px solid rgba(0,0,0,.09);
 }
+.platinum-sponsors,
+.gold-sponsors {
+  width: 39.65%;
+  height: auto;
+}
+
+.silver-sponsors {
+  width: 30%;
+  height: auto;
+}
+
+.platinum-sponsors img,
+.gold-sponsors img,
+.silver-sponsors img {
+  width: 100%;
+  height: auto;
+}
 
 @media (max-width: 992px) {
   .client-border {
     margin: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .platinum-sponsors, .gold-sponsors {
+    width: 90.2%;
+    padding: 5px 5px;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .silver-sponsors {
+    width: 93.475%;
+    padding: 5px 10px;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 }
 
