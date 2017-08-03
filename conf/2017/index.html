@@ -100,17 +100,19 @@ title: RubyConf ID 2017
         <div class="col col-sm-20 col-xs-100">
           <p class="big-text-2">Speakers</p>
         </div>
-        <div class="col col-sm-80 col-xs-100" style="margin-top: 30px;">
-          <div class="row row-speaker">
-            <div class="col col-sm-30 col-xs-100">
-              <img src="{{ "/assets/conf/matz-pic.jpg" }}" style="width:100%">
+        <div class="col col-sm-80 col-xs-100">
+          {% for speaker in site.data.conf.keynote_speakers %}
+          <div class="row row-speaker keynote">
+            <div class="col col-sm-20 col-xs-100">
+              <img src="{{ speaker.image_url }}" alt="{{ speaker.name }}">
             </div>
-            <div class="col col-sm-70 col-xs-100">
-              <p class="normal-h medium-3">Yukihiro "Matz" Matsumoto</p>
-              <p class="normal-h red">Video Conference Keynote</p>
-              <p>Yukihiro Matsumoto aka “Matz” is the creator and chief designer of the Ruby language and its reference implementation, Matz’s Ruby Interpreter (MRI). He works for many open source related organizations and companies, e.g. NaCl inc. in Japan, Heroku and Ruby Association.</p>
+            <div class="col col-sm-80 col-xs-100">
+              <p class="normal-h medium-3">{{ speaker.name }}</p>
+              <p class="normal-h red">{{ speaker.note }}</p>
+              <p>{{ speaker.short_bio }}</p>
             </div>
           </div>
+          {% endfor %}
         </div>
       </div>
     </div>
