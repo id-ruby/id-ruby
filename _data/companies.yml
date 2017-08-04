@@ -78,6 +78,11 @@
   image_url: images/logo_peentar.png
   description: Platform Software-as-a-service untuk enterprise dengan fokus pada perangkat-perangkat IoT
 
+- name: Qontak
+  url: https://www.qontak.com
+  image_url: images/logo_qontak.png
+  description: Asia's leading sales technology solution providing customisable CRM solutions, verified business data and marketing services.
+
 - name: Quipper
   url: https://video.quipper.com/id
   image_url: images/logo_quipper.png
