@@ -13,6 +13,11 @@
   image_url: images/logo_bbm.png
   description: Operated by KMK Online as a stand-alone business with teams operating from Indonesia, Singapore, Canada, UAE and South Africa.
 
+- name: Binar Academy
+  url: https://www.binar.co.id
+  image_url: images/logo_binar.png
+  description: Binar Academy adalah akademi non-formal dengan program full scholarship untuk siapapun yang ingin belajar dan memberikan social impact
+
 - name: Bukalapak
   url: http://bukalapak.com
   image_url: images/logo_bukalapak.png
