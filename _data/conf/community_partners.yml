@@ -1,0 +1,7 @@
+# - name: name of partner
+#   url: https://www.url_to.com/
+#   image_url: /images/conf/2017/logo.png # Must be at least 350 x 250 pixels
+
+- name: GeekHunter
+  url: https://geekhunter.co
+  image_url: /images/conf/2017/geek-hunter-sponsor-rubyconf.png
