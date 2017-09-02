@@ -1,3 +1,7 @@
 # - name: name of sponsor
 #   url: https://www.url_to.com/
 #   image_url: /images/conf/2017/logo.png # Must be at least 200 x 150 pixels
+
+- name: Midtrans
+  url: https://midtrans.com/
+  image_url: /images/conf/2017/midtrans-sponsor-rubyconf.png # Must be at least 200 x 150 pixels

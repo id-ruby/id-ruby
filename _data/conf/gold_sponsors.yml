@@ -2,6 +2,10 @@
 #   url: https://www.url_to.com/
 #   image_url: /images/conf/2017/logo.png # Must be at least 350 x 250 pixels
 
+- name: Quipper
+  url: https://www.quipper.com/
+  image_url: /images/conf/2017/quipper-sponsor-rubyconf.png # Must be at least 350 x 250 pixels
+
 - name: Cookpad
   url: https://cookpad.com
-  image_url: /images/conf/2017/cookpad-sponsorship-rubyconf.png # Must be at least 350 x 250 pixels
+  image_url: /images/conf/2017/cookpad-sponsor-rubyconf.png # Must be at least 350 x 250 pixels
