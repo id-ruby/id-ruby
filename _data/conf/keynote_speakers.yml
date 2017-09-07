@@ -7,23 +7,40 @@
   image_url: /images/conf/2017/matz-pic.jpg
   note: Video Conference Keynote
   short_bio: Yukihiro Matsumoto aka “Matz” is the creator and chief designer of the Ruby language and its reference implementation, Matz’s Ruby Interpreter (MRI). He works for many open source related organizations and companies, e.g. NaCl inc. in Japan, Heroku and Ruby Association.
+  title: TBA
+  abstract: TBA
 
 - name: Koichi Sasada
   image_url: /images/conf/2017/ko1-pic.jpg
   note: Conference Keynote
   short_bio: Koichi Sasada is a programmer, mainly developing Ruby interpreter (CRuby/MRI). He received Ph.D (Information Science and Technology) from the University of Tokyo, 2007. He became a faculty of University of Tokyo (Assistant associate 2006-2008, Assistant professor 2008-2012). After the 13 years life in university, he had joined a member of Matz's team in Heroku, Inc. Now he is a member of Cookpad Inc (engineer). He is also a director of Ruby Association.
+  title: "Ruby's Concurrency Management: Now and Future"
+  abstract: |-
+    Now, Ruby has several concurrency management features: Threads and Fibers.
+    Threads support preemptive context switching and Fibers are for self
+    context management. Further more, I proposing new concurrency feature
+    "Guild" for Ruby 3. Guild support "isolation" for parallel execution.
+    They have advantages and disadvantages. In this talk, I will introduce current features and discuss pros. and
+    cons. Also I will show you the new feature "Guild" and why it is needed.
+    With this talk, you can understand Ruby's concurrency deeply.
 
 - name: Sau Sheong Chang
   image_url: /images/conf/2017/sau-pic.jpg
   note: Conference Keynote
   short_bio: A Programmer, an Author, and a Speaker. He run a product and engineering organization that defines and delivers innovative digital products for Singapore Power. Was at PayPal, HP Labs Singapore, Garena, Yahoo! SEA. Author of some books, including "Ruby on Rails Web Mashup Projects" in 2008. Some of his specialities are Cloud computing, Internet applications, Payment software, Point-of-sales terminals, J2EE backend host, e-commerce, legal arbitration, Ruby on Rails, Ruby, EMV, R, Hadoop, Big Data, and Data analytics
+  title: TBA
+  abstract: TBA
 
 - name: Nick Sutterer
   image_url: /images/conf/2017/nick-pic.jpg
   note: Conference Keynote
   short_bio: Drinks IPAs, designs APIs. Creator of http://trailblazer.to (Cells, Apotomo, Roar, Representable, Reform, Disposable, Uber, and more). His expertises are in Ruby architecture and component-oriented system design, refactoring, Rails, gem development.
+  title: Ruby is Dead?
+  abstract: Having a simple programming language doesn't mean the applications will be simple. Higher abstractions are needed - but Ruby doesn't seem to give us those! Here is a tour through other languages, and how we can have nice things in Ruby.
 
 - name: Aaron Cruz
   image_url: /images/conf/2017/aaron-pic.jpg
   note: Conference Keynote
   short_bio: Aaron is a food lover who speaks about Ruby and other programming languages at conferences around the world. For his real job, he helps Rails SaaS owners reduce churn through performance audits and fixes. Currently, he help Advertising Agencies create more memorable and engaging ad campaigns by developing custom, branded chatbots.
+  title: How I Learned Indonesian In 30 Days
+  abstract: I like challenges. Since seeing and hearing Indonesian for the first time, I've found it incredibly fascinating. So with the help of Ruby, I started on a journey to learn Indonesian in 30 days. I will go through the tools I used and talk about abstractions, dependencies and how DRY is not always GREAT. Join me on my quest to master the Indonesian!

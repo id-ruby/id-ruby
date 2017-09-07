@@ -364,6 +364,9 @@ p {
     font-size: 20px;
     font-weight: 600;
   }
+  &.medium-4 {
+    font-size: 18px;
+  }
   &.large-1 {
     font-size: 60px;
     line-height: 48px;
@@ -603,7 +606,11 @@ section {
   &#committee {
     padding-bottom: 150px;
   }
+  &#keynote-speakers {
+    padding-bottom: 50px;
+  }
   &#speakers {
+    margin-top: 0;
     padding-bottom: 100px;
   }
   &#ticket {

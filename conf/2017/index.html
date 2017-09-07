@@ -21,6 +21,7 @@ title: RubyConf ID 2017
       <nav class="navbar">
         <ul>
           <li><a href="#about">ABOUT</a></li>
+          <li><a href="#keynote-speakers">KEYNOTES</a></li>
           <li><a href="#speakers">SPEAKERS</a></li>
           <li><a href="#venue">VENUE</a<</li>
           <li><a href="#committee">COMMITTEE</a></li>
@@ -95,12 +96,12 @@ title: RubyConf ID 2017
   </section>
   <!-- #### END ABOUT SECTION #### -->
 
-  <!-- #### START SPEAKERS SECTION #### -->
-  <section id="speakers" class="main-section bg-grey">
+  <!-- #### START KEYNOTE SPEAKERS SECTION #### -->
+  <section id="keynote-speakers" class="main-section bg-grey">
     <div class="container">
       <div class="row">
         <div class="col col-sm-20 col-xs-100">
-          <p class="big-text-2">Speakers</p>
+          <p class="big-text-2">Keynote Speakers</p>
         </div>
         <div class="col col-sm-80 col-xs-100">
           {% for speaker in site.data.conf.keynote_speakers %}
@@ -111,7 +112,38 @@ title: RubyConf ID 2017
             <div class="col col-sm-80 col-xs-100">
               <p class="normal-h medium-3">{{ speaker.name }}</p>
               <p class="normal-h red">{{ speaker.note }}</p>
-              <p>{{ speaker.short_bio }}</p>
+              <p class="medium-4"><strong>Title:</strong> {{ speaker.title }}</p>
+              <p>{{ speaker.abstract }}</p>
+              <p><strong>Bio:</strong><br />{{ speaker.short_bio }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- #### END KEYNOTE SPEAKERS SECTION #### -->
+
+  <!-- #### START SPEAKERS SECTION #### -->
+  <section id="speakers" class="main-section bg-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col col-sm-20 col-xs-100">
+          <p class="big-text-2">Speakers</p>
+        </div>
+        <div class="col col-sm-80 col-xs-100">
+          {% for speaker in site.data.conf.speakers %}
+          <div class="row row-speaker keynote">
+            <div class="col col-sm-20 col-xs-100">
+              {% if speaker.image_url.present? %}
+                <img src="{{ speaker.image_url }}" alt="{{ speaker.name }}">
+              {% endif %}
+            </div>
+            <div class="col col-sm-80 col-xs-100">
+              <p class="normal-h medium-3">{{ speaker.name }}</p>
+              <p class="medium-4"><strong>Title:</strong> {{ speaker.title }}</p>
+              <p>{{ speaker.abstract }}</p>
+              <p><strong>Bio:</strong><br />{{ speaker.short_bio }}</p>
             </div>
           </div>
           {% endfor %}
