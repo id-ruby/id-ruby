@@ -47,13 +47,6 @@
   title: "How you can use sentiment analysis for better customer engagement"
   abstract: Big data enables companies to make targeted, real time decisions that increase market share. Sentiment Analysis (SA) focuses on various ways to analyse big data to identify patterns and relationships, make predictions, deliver actionable intelligence and gain business insight.
 
-- name: Prasun Anand
-  image_url: null
-  short_bio: |-
-    Prasun is a student at BITS Pilani KK Birla Goa Campus, Goa, India pursuing a dual degree in M.Sc. in Biological Sciences and B.E. in Chemical Engineering. He is involved with different open-source projects aimed at super fast Scientific Computing on Ruby and D. He worked with SciRuby as a GSoC student in 2016, 2017. He worked on JRuby port of NMatrix and is currently work on creating GPGPU libraries for D and Ruby. One such effort is ArrayFire gem which has an outstanding performance.
-  title: High Performance GPU computing with Ruby
-  abstract: Ruby being so old and a mature programming is still not preferred for Scientific Computing, mostly because it can't handle large datasets. ArrayFire gem has an outstanding performance and gem can be run on clusters and handle real world problems by crunching huge datasets.
-
 - name: Rishi Jain
   image_url: null
   short_bio: |-
