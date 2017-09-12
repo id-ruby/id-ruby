@@ -77,6 +77,6 @@
 - name: Tony Vincent T.Y
   image_url: null
   short_bio: |-
-    I am a developer from Kochin, Kerala and I am in love with ruby. I enjoy contributing to opensource and answering stuff on SO.
+    I am a developer from Kochin, Kerala and I am in love with ruby. I enjoy contributing to opensource and answering stuff on SO. I work at RedPanthers (@redpanthershq).
   title: "Meet Crystal - Ruby's compiled younger sibling"
   abstract: We all know Ruby is awesome, many of us fell in love with its simplicity. But what about speed? Like many interpreted languages Ruby is not known for its speed. What if you have a language as expressive and simple as ruby yet blazingly fast? That's Crystal Lang for you, Fast as C and Slick as Ruby
