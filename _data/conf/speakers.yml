@@ -10,6 +10,13 @@
   title: "How to Understand Immutability in Ruby: Origins, Prolog, LISP, and Matz"
   abstract: Ever wondered how an immutable object—with *fewer* methods than its mutable twin—is supposed to make a Ruby programmer's life happier? Won't it do the opposite by making programming harder? This talk will blow your mind by filling you in on the missing story that makes immutability productive.
 
+- name: Agung Setiawan
+  image_url: null
+  short_bio: |-
+    Berpengalaman menggunakan Ruby on Rails di Bukalapak. Aktif menerbitkan video tutorial ruby, ruby on rails dan topik lainnya di IDRails. Penulis buku Vim untuk Semua. Rutin berbagi tentang hal yang dialami dan ketahui di dunia IT melalui tulisan di blog pribadi.
+  title: "Be a Ruby (and Rails) Evangelist"
+  abstract: Di Indonesia Ruby masih sepi. Kita sebagai rubyist perlu memfamiliarkan Ruby supaya semakin banyak rubyist yang ada. Caranya bagaimana? kita jadi Ruby evangelist! Lewat fb, twitter, blog mau pun screencast kita bisa membuka pandangan orang tentang Ruby dengan harapan menjadi tertarik untuk mencoba
+
 - name: Baskara Patria
   image_url: null
   short_bio: |-
@@ -27,6 +34,13 @@
     Linkedin: https://www.linkedin.com/in/evan-purnama-49266a62/
   title: "Lessons Learned: 3 years+ on Ruby on Rails (RoR)"
   abstract: This talks I want to talk about our personal experience of 3 years+ using Ruby on Rails. We will talk about thinking process of how we decided to use Ruby on Rails to start our very first application as company, and we will talk about how we feel about that choices after 3 years+.
+
+- name: Galih Muhammad
+  image_url: null
+  short_bio: |-
+    I studied finance in the university but then fell in love with ruby when trying out a bunch of languages on Codecademy. Then my mind gets more blown (is that the correct grammar?) when watching the how to quickly develop blog using Rails. Start following a number of tutorials (the one by Michael Hartl is the best starting point for learning Rails, IMHO), then build a couple of apps on my own. 3 years later now I am a software developer @ HarukaEdu, and the best thing is I have the ability to make my ideas into reality.
+  title: "Using Rails 5 As Your API Backend May Not Be The Stupidest Idea"
+  abstract: Ruby on Rails is dead, they say. With asynchronous Web App becoming the new norm, NodeJS and Golang has become the go-to tools for writing backend. Is there really a place for this 10-year-old, battle-tested web framework, in the API-builders battlefield? I say there (maybe) is.
 
 - name: Harwin Prahara
   image_url: null
@@ -48,6 +62,13 @@
     Nimmy Vipin has been working at Red Panthers, a Ruby on Rails dev shop based out in Kochi, India for the past one year. She is interested in open source and attends Open Source Saturdays and Ruby Meetups in Kochi. A feminist at heart, when not coding she spends her time in activist work, blogging at blog.redpanthers.co and watching south Indian movies.
   title: "How you can use sentiment analysis for better customer engagement"
   abstract: Big data enables companies to make targeted, real time decisions that increase market share. Sentiment Analysis (SA) focuses on various ways to analyse big data to identify patterns and relationships, make predictions, deliver actionable intelligence and gain business insight.
+
+- name: Rika Rumiyati
+  image_url: null
+  short_bio: |-
+    I am Rika. I code (ongoing learning still). I cook(and eat). I am a phone-photography enthusiast: mostly snapping food/nature and post it on instagram. I used to work as PR consultant before finally get back to my root and working as developer at Cookpad in 2015. In my spare time  am a budget-traveler exploring places and food that sometimes isn't famous like Sangiang island. Recent random things I did: cook delicious pasta during summit at Papandayan and tried indoor wall climbing.
+  title: "How I met Ruby on Rails (and into it)"
+  abstract: Ruby on Rails(RoR) is not a famous framework during my college years. Yet, as I entered my job in Cookpad as a developer I am introduced to RoR. The gap of thinking we learned enough at college vs work reality makes me want to share my RoR learning progress and takeouts for beginners like me.
 
 - name: Rishi Jain
   image_url: null
@@ -73,6 +94,13 @@
     A product engineer at Go-Jek, helping people get their food since 2015 and will help people pay without cash starting mid-2017
   title: "Breaking The Circuit using Hystrix and JRuby"
   abstract: How can we stop cascading failures in a complex distributed system? How to prevent a network or service failure from cascading to other services and degrade gracefully while doing so? We can achieve that by utilizing a Circuit Breaker pattern.
+
+- name: Taufiq Muhammadi
+  image_url: null
+  short_bio: |-
+    I've been doing Ruby development professionally since 2014, taking freelance project from international clients. This year I start bootstrapping my product business, a SaaS build with Ruby and love.
+  title: "The Future is the Past is the Future: Building a Static Site in 2017"
+  abstract: Have you ever noticed that most of the internet is blog like? Wordpress and other CMS has make the commoners web easy, but boring.  This talk will tell you how we party like it's the 90's  using static site tool of 2017, building a hand curated knowledge-base website for our SaaS customer
 
 - name: Tony Vincent T.Y
   image_url: null
