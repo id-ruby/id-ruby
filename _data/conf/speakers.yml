@@ -10,6 +10,13 @@
   title: "How to Understand Immutability in Ruby: Origins, Prolog, LISP, and Matz"
   abstract: Ever wondered how an immutable object—with *fewer* methods than its mutable twin—is supposed to make a Ruby programmer's life happier? Won't it do the opposite by making programming harder? This talk will blow your mind by filling you in on the missing story that makes immutability productive.
 
+- name: Adam Pahlevi Baihaqi
+  image_url: null
+  short_bio: |-
+    I am a curious software crafter that enjoy writing and maintaining an adequately complex software, through readable and well-structured syntax. He is so much into syntax maintainability and efficiency. For him, the code is the product, and the end-user product is the byproduct of the product.
+  title: "Blockchains on Ruby"
+  abstract: Blockchain is an interesting concept and sounds futuristic, and yet mysterious to most. It is the basic building of the Etherium and Bitcoin cryptocurrency, which source code, a complex one, could be available for reading. But, how about stepping back and taking basic Blockchain 101 and display how it was made in Ruby.
+
 - name: Agung Setiawan
   image_url: null
   short_bio: |-
