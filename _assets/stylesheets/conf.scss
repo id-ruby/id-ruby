@@ -2,7 +2,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   display: block;
 }
 
-[hidden] {
+[hidden], .hidden {
   display: none;
 }
 
@@ -328,6 +328,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 700;
   &:hover, &:focus {
     color: #000;
+  }
+}
+
+.button-grey {
+  background-color: #999999;
+  color: #fff;
+  &:hover, &:focus {
+    color: #fff;
   }
 }
 
