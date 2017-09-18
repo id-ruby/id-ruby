@@ -45,7 +45,9 @@
 - name: Harwin Prahara
   image_url: /images/conf/2017/harwin_prahara-pic.png
   short_bio: |-
-    INTP. A web engineer shifted to Android engineer. Graduated twice from Fasilkom UI. Retired (for now) Dota2 and Overwatch player. (PS Vita - PS4 Remote Play is a game changing feature!) Fans of noodle and steak.
+    INTP. A web engineer shifted to Android engineer @cookpad. Graduated twice from Fasilkom UI. Retired (for now) Dota2 and Overwatch player. (PS Vita - PS4 Remote Play is a game changing feature!). Fans of noodle and steak.
+
+    He can be reached at https://twitter.com/hardwinder and https://www.linkedin.com/in/harwinprahara/
   title: "V for Versioning: how we ship new feature while maintaining legacy support"
   abstract: API versioning is a simple yet sensitive issue. Doing it wrong, you'll certainly see a cold war between API and mobile app devs, not to mention angry clients with their unusable app because of API-incompatibility issue. This talk will show how to handle API versioning with care and prevent a war :)
 
