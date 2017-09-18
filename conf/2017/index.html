@@ -12,7 +12,7 @@ description: RubyConf Indonesia 2017 will be the first ever Ruby conference in I
         <img src="{{ '/assets/conf/logo_rubyconfid_2017.png' }}">
       </a>
     </div>
-    <button class="navbar-toggle" id='buttonToggle' data-target="#navCollapse">
+    <button class="navbar-toggle" data-behavior='buttonToggle' data-target="#navCollapse">
       <img src="{{ '/assets/conf/icon-bars.svg' }}">
     </button>
     <div class="navigation navigation-collapse" id="navCollapse">
@@ -133,15 +133,18 @@ description: RubyConf Indonesia 2017 will be the first ever Ruby conference in I
           {% for speaker in site.data.conf.speakers %}
           <div class="row row-speaker keynote">
             <div class="col col-sm-20 col-xs-100">
-              {% if speaker.image_url.present? %}
+              {% if speaker.image_url %}
                 <img src="{{ speaker.image_url }}" alt="{{ speaker.name }}">
+              {% else %}
+                <span>&nbsp;</span>
               {% endif %}
             </div>
             <div class="col col-sm-80 col-xs-100">
               <p class="normal-h medium-3">{{ speaker.name }}</p>
               <p class="medium-4"><strong>Title:</strong> {{ speaker.title }}</p>
               <p>{{ speaker.abstract }}</p>
-              <p><strong>Bio:</strong><br />{{ speaker.short_bio }}</p>
+              <p><a href="#" data-behavior="buttonToggle" data-target="#speaker{{ forloop.index }}" class="button button-round button-grey">Show Bio</a></p>
+              <div id="speaker{{ forloop.index }}" class="hidden">{{ speaker.short_bio }}</div>
             </div>
           </div>
           {% endfor %}
@@ -433,11 +436,8 @@ description: RubyConf Indonesia 2017 will be the first ever Ruby conference in I
       <div class="row">
         <div class="col col-sm-100 col-xs-100">
           <div class="box-sr box-contact">
-            <p class="big-text-2">Contact</p>
             <div style="margin-bottom:40px;">
-              <p class="medium-2">We are still accepting sponsorship.</p>
-              <p class="medium-2">Please contact us at</p>
-              <p class="medium-2"><a href="mailto:sponsor@ruby.id">sponsor@ruby.id</a></p>
+              <p class="medium-2">To get more information about the conference and to contact the organizer, <a href="mailto:conf@ruby.id">feel free to reach us</a>.</p>
             </div>
           </div>
         </div>
@@ -464,22 +464,23 @@ description: RubyConf Indonesia 2017 will be the first ever Ruby conference in I
   $(function() {
     "use strict";
     $("nav.navbar").singlePageNav({
-        speed: 1e3,
-        currentClass: "active",
-        offset: 80
+      speed: 1e3,
+      currentClass: "active",
+      offset: 80
     });
     $('#showConduct').click(function(event){
-        event.preventDefault();
-        $('#moreConduct').toggle();
+      event.preventDefault();
+      $('#moreConduct').toggle();
     });
-    $('#buttonToggle').click(function(){
+    $('[data-behavior=buttonToggle]').click(function(){
+      event.preventDefault();
       var target = $(this).data('target');
-      $(target).fadeToggle();
+      $(target).toggle();
     });
     $('a[data-toggle="scrollTo"]').click(function(event) {
       event.preventDefault();
       var target = $(this).data('target');
       $('html, body').scrollTo($(target), 1800);
-  	});
+  	 });
   });
 </script>

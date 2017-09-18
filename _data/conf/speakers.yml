@@ -25,7 +25,7 @@
   abstract: Ruby on Rails' ActiveRecord provides query generations which can help programmer delivers faster. But when it needs to deal with separated data sources, it can cause some problems. Hear our story on scaling Order Management System from biggest food delivery service in ASEAN with RoR and PostgreSQL.
 
 - name: Evan Purnama
-  image_url: null
+  image_url: /images/conf/2017/evan_purnama-pic.jpg
   short_bio: |-
     Evan Purnama, born and grow up in Jogja. Went to Singapore and graduated in 3.5 years from NTU and worked at some IT companies in Singapore before decided to start his own startup tech company in early 2013, Qiscus Pte Ltd (Messaging Platform for Business, which in 2016 pivoted to Chat and Call Engine Services) and 1618 Pte Ltd (Software House).
 
@@ -43,21 +43,21 @@
   abstract: Ruby on Rails is dead, they say. With asynchronous Web App becoming the new norm, NodeJS and Golang has become the go-to tools for writing backend. Is there really a place for this 10-year-old, battle-tested web framework, in the API-builders battlefield? I say there (maybe) is.
 
 - name: Harwin Prahara
-  image_url: null
+  image_url: /images/conf/2017/harwin_prahara-pic.png
   short_bio: |-
     INTP. A web engineer shifted to Android engineer. Graduated twice from Fasilkom UI. Retired (for now) Dota2 and Overwatch player. (PS Vita - PS4 Remote Play is a game changing feature!) Fans of noodle and steak.
   title: "V for Versioning: how we ship new feature while maintaining legacy support"
   abstract: API versioning is a simple yet sensitive issue. Doing it wrong, you'll certainly see a cold war between API and mobile app devs, not to mention angry clients with their unusable app because of API-incompatibility issue. This talk will show how to handle API versioning with care and prevent a war :)
 
 - name: Mufid Afif
-  image_url: null
+  image_url: /images/conf/2017/mufid_afif-pic.jpg
   short_bio: |-
     Mufid is a language-agnostic and culture-agnostic software developer from Indonesia, with focus on distributed system and high-scalability software. Mufid has worked on several tech companies in Indonesia, ranging from early startup to high-traffic, established software company. Mufid loves to craft with code. Most of the time, he forks open source software with permissive license and makes his own customization. In spare time, he loves to come to programmer meetups because he believes software world can be better by leveraging communities. He also loves to cycling and photography. He loves to go to Sentul, one of beautiful place near Jakarta for biking and photo hunting.
   title: "But server processed wrong submission! Understanding Race Condition"
   abstract: "You built an application. Then you scaled up your application, added more user, added more servers. Everything would seem fine until at some moment, server may get different outcomes processing data with the same data in high traffic application. It might be race condition: altering/submitting data in unsafe manner. It can be SQL, thread, or even multi-machine communication. Race condition is catastrophic because it does not show up in small, low-traffic application. In this talk, i will tell what race condition is and we will see common pitfall in building high traffic application. Of course we will also discuss on how to avoid it in Rails."
 
 - name: Nimmy Vipin
-  image_url: null
+  image_url: /images/conf/2017/nimmy_vipin-pic.jpg
   short_bio: |-
     Nimmy Vipin has been working at Red Panthers, a Ruby on Rails dev shop based out in Kochi, India for the past one year. She is interested in open source and attends Open Source Saturdays and Ruby Meetups in Kochi. A feminist at heart, when not coding she spends her time in activist work, blogging at blog.redpanthers.co and watching south Indian movies.
   title: "How you can use sentiment analysis for better customer engagement"
@@ -71,7 +71,7 @@
   abstract: Ruby on Rails(RoR) is not a famous framework during my college years. Yet, as I entered my job in Cookpad as a developer I am introduced to RoR. The gap of thinking we learned enough at college vs work reality makes me want to share my RoR learning progress and takeouts for beginners like me.
 
 - name: Rishi Jain
-  image_url: null
+  image_url: /images/conf/2017/rishi_jain-pic.jpg
   short_bio: |-
     Rishi loves talking about Ruby at conferences. Unfortunately that does not pay the bills. So for a living, he works at a start-up in Bangalore where he helps businesses to go from intent to content.
 
@@ -80,7 +80,7 @@
   abstract: Playing games is fun, but building one is even more fun. Add ruby to the mix, it gets awesome. Gosu is the library which is used for game-development. You will learn about the maths and technical stuff such as gameloop, animations, collisions etc needed to develop games. Also get to play cool games.
 
 - name: Shaiju E
-  image_url: null
+  image_url: /images/conf/2017/shaiju_e-pic.jpg
   short_bio: |-
     Shaiju E has been building SaaS application and API's using Ruby and Rails framework for past 5 years. He started working on GraphQL and React JS six months ago. Presently serving as Senior Software Engineer at Rubyians Pvt. Ltd. Rubyians is a Ruby / Rails consulting company based out of Trivandrum, Kerala. He is also an active blogger, he writes posts about Rails and related technologies.
 
@@ -103,7 +103,7 @@
   abstract: Have you ever noticed that most of the internet is blog like? Wordpress and other CMS has make the commoners web easy, but boring.  This talk will tell you how we party like it's the 90's  using static site tool of 2017, building a hand curated knowledge-base website for our SaaS customer
 
 - name: Tony Vincent T.Y
-  image_url: null
+  image_url: /images/conf/2017/tony_vincent-pic.jpg
   short_bio: |-
     I am a developer from Kochin, Kerala and I am in love with ruby. I enjoy contributing to opensource and answering stuff on SO. I work at RedPanthers (@redpanthershq).
   title: "Meet Crystal - Ruby's compiled younger sibling"
