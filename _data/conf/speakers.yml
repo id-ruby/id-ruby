@@ -11,14 +11,14 @@
   abstract: Ever wondered how an immutable object—with *fewer* methods than its mutable twin—is supposed to make a Ruby programmer's life happier? Won't it do the opposite by making programming harder? This talk will blow your mind by filling you in on the missing story that makes immutability productive.
 
 - name: Adam Pahlevi Baihaqi
-  image_url: null
+  image_url: /images/conf/2017/adam-pahlevi-pic.png
   short_bio: |-
     I am a curious software crafter that enjoy writing and maintaining an adequately complex software, through readable and well-structured syntax. He is so much into syntax maintainability and efficiency. For him, the code is the product, and the end-user product is the byproduct of the product.
   title: "Blockchains on Ruby"
   abstract: Blockchain is an interesting concept and sounds futuristic, and yet mysterious to most. It is the basic building of the Etherium and Bitcoin cryptocurrency, which source code, a complex one, could be available for reading. But, how about stepping back and taking basic Blockchain 101 and display how it was made in Ruby.
 
 - name: Agung Setiawan
-  image_url: null
+  image_url: /images/conf/2017/agung-setiawan-pic.jpg
   short_bio: |-
     Berpengalaman menggunakan Ruby on Rails di Bukalapak. Aktif menerbitkan video tutorial ruby, ruby on rails dan topik lainnya di IDRails. Penulis buku Vim untuk Semua. Rutin berbagi tentang hal yang dialami dan ketahui di dunia IT melalui tulisan di blog pribadi.
   title: "Be a Ruby (and Rails) Evangelist"
@@ -43,7 +43,7 @@
   abstract: This talks I want to talk about our personal experience of 3 years+ using Ruby on Rails. We will talk about thinking process of how we decided to use Ruby on Rails to start our very first application as company, and we will talk about how we feel about that choices after 3 years+.
 
 - name: Galih Muhammad
-  image_url: null
+  image_url: /images/conf/2017/galih-muhammad-pic.jpg
   short_bio: |-
     I studied finance in the university but then fell in love with ruby when trying out a bunch of languages on Codecademy. Then my mind gets more blown (is that the correct grammar?) when watching the how to quickly develop blog using Rails. Start following a number of tutorials (the one by Michael Hartl is the best starting point for learning Rails, IMHO), then build a couple of apps on my own. 3 years later now I am a software developer @ HarukaEdu, and the best thing is I have the ability to make my ideas into reality.
   title: "Using Rails 5 As Your API Backend May Not Be The Stupidest Idea"
