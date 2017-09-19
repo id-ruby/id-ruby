@@ -33,6 +33,11 @@
   image_url: images/logo_cpxi.png
   description: CPXi is a growing, global digital media company which includes media executions, content creation, dan engagement strategies.
 
+- name: Dropsuite
+  url: https://dropsuite.com/
+  image_url: images/logo_dropsuite.png
+  description: Dropsuite is a cloud based software platform that enables SMBs to easily backup, recover and protect their digital assets.
+
 - name: Forstok
   url: https://www.forstok.com/
   image_url: images/logo_forstok.png
