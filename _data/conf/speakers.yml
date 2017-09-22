@@ -4,14 +4,14 @@
 #   short_bio: lorem ipsum
 
 - name: Abdullah Kim-Ee Yeoh
-  image_url: null
+  image_url: /images/conf/2017/abdullah-pic.jpg
   short_bio: |-
     Since 2014, I help run the Lambda Jakarta functional programming meetup dedicated to improving developer productivity in Indonesia. I'm passionate about helping people increase their productivity by conquering the most difficult concepts in their field in creative and imaginative ways so that what they've learned stay with them for the rest of their lives. The last talk I gave at Lambda was on "How Giving Talks Is Vital To Your Software Dev Career (BONUS: One Tip To Make It Super Effective)".
   title: "How to Understand Immutability in Ruby: Origins, Prolog, LISP, and Matz"
   abstract: Ever wondered how an immutable object—with *fewer* methods than its mutable twin—is supposed to make a Ruby programmer's life happier? Won't it do the opposite by making programming harder? This talk will blow your mind by filling you in on the missing story that makes immutability productive.
 
 - name: Adam Pahlevi Baihaqi
-  image_url: /images/conf/2017/adam-pahlevi-pic.png
+  image_url: /images/conf/2017/adam-pahlevi-pic.jpg
   short_bio: |-
     I am a curious software crafter that enjoy writing and maintaining an adequately complex software, through readable and well-structured syntax. He is so much into syntax maintainability and efficiency. For him, the code is the product, and the end-user product is the byproduct of the product.
   title: "Blockchains on Ruby"
@@ -73,7 +73,7 @@
   abstract: Big data enables companies to make targeted, real time decisions that increase market share. Sentiment Analysis (SA) focuses on various ways to analyse big data to identify patterns and relationships, make predictions, deliver actionable intelligence and gain business insight.
 
 - name: Rika Rumiyati
-  image_url: null
+  image_url: /images/conf/2017/rika-rumiyati-pic.jpg
   short_bio: |-
     I am Rika. I code (ongoing learning still). I cook(and eat). I am a phone-photography enthusiast: mostly snapping food/nature and post it on instagram. I used to work as PR consultant before finally get back to my root and working as developer at Cookpad in 2015. In my spare time  am a budget-traveler exploring places and food that sometimes isn't famous like Sangiang island. Recent random things I did: cook delicious pasta during summit at Papandayan and tried indoor wall climbing.
   title: "How I met Ruby on Rails (and into it)"
