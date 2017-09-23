@@ -25,7 +25,7 @@
   abstract: Di Indonesia Ruby masih sepi. Kita sebagai rubyist perlu memfamiliarkan Ruby supaya semakin banyak rubyist yang ada. Caranya bagaimana? kita jadi Ruby evangelist! Lewat fb, twitter, blog mau pun screencast kita bisa membuka pandangan orang tentang Ruby dengan harapan menjadi tertarik untuk mencoba
 
 - name: Baskara Patria
-  image_url: null
+  image_url: /images/conf/2017/baskara-patria-pic.jpg
   short_bio: |-
     A problem solver which writes code that mostly runs at GO-JEK's Food Services. A former Android Engineer at the same company.
   title: "Dealing with Increasing Records in Ruby on Rails and PSQL"
