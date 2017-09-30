@@ -100,10 +100,10 @@
   abstract: GraphQL is a query language for APIs. While typical REST APIs require loading from multiple URLs, GraphQL APIs get all the data your app needs in a single request which makes Apps using GraphQL can be quick and stable. So my talk would be about implementing GraphQL API in a Ruby application.
 
 - name: Taufan Aeroperkasa
-  image_url: null
+  image_url: /images/conf/2017/taufan-a-pic.jpg
   short_bio: |-
-    A product engineer at Go-Jek, helping people get their food since 2015 and will help people pay without cash starting mid-2017
-  title: "Breaking The Circuit using Hystrix and JRuby"
+    A product engineer at Go-Jek, still fairly newbie to Ruby (and Rails).
+  title: "Breaking the Circuit using Hystrix and JRuby"
   abstract: How can we stop cascading failures in a complex distributed system? How to prevent a network or service failure from cascading to other services and degrade gracefully while doing so? We can achieve that by utilizing a Circuit Breaker pattern.
 
 - name: Taufiq Muhammadi
