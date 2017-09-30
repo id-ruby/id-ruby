@@ -27,7 +27,7 @@
 - name: Nick Sutterer
   image_url: /images/conf/2017/nick-pic.jpg
   note: Conference Keynote
-  short_bio: Drinks IPAs, designs APIs. Creator of http://trailblazer.to (Cells, Apotomo, Roar, Representable, Reform, Disposable, Uber, and more). His expertises are in Ruby architecture and component-oriented system design, refactoring, Rails, gem development.
+  short_bio: Drinks IPAs, designs APIs. Creator of <a href="http://trailblazer.to">http://trailblazer.to</a> (Cells, Apotomo, Roar, Representable, Reform, Disposable, Uber, and more). His expertises are in Ruby architecture and component-oriented system design, refactoring, Rails, gem development.
   title: Ruby is Dead?
   abstract: Having a simple programming language doesn't mean the applications will be simple. Higher abstractions are needed - but Ruby doesn't seem to give us those! Here is a tour through other languages, and how we can have nice things in Ruby.
 
@@ -37,3 +37,20 @@
   short_bio: Aaron is a food lover who speaks about Ruby and other programming languages at conferences around the world. For his real job, he helps Rails SaaS owners reduce churn through performance audits and fixes. Currently, he help Advertising Agencies create more memorable and engaging ad campaigns by developing custom, branded chatbots.
   title: How I Learned Indonesian In 30 Days
   abstract: I like challenges. Since seeing and hearing Indonesian for the first time, I've found it incredibly fascinating. So with the help of Ruby, I started on a journey to learn Indonesian in 30 days. I will go through the tools I used and talk about abstractions, dependencies and how DRY is not always GREAT. Join me on my quest to master the Indonesian!
+
+- name: Sidu Ponnappa
+  image_url: /images/conf/2017/sidu-pic.jpg
+  note: Conference Keynote
+  short_bio: |-
+    26 years coding,
+    12 years coding for money,
+    2 jobs,
+    5 startup attempts,
+    1 exit,
+    1 non profit,
+    3 conferences (including RubyConf India),
+    Many, many failures :).
+    Currently: Head of Data Engineering, GO-JEK.
+    More: <a href="http://sidu.in">http://sidu.in</a>
+  title: 12 years of Ruby
+  abstract: I've worked with Ruby since 2005 and Ruby 1.8.3. My first startup was based on Rails 0.10. I've built software, communities, products and businesses around Ruby for a dozen years. This talk is the (deeply personal) story of what I've seen and learned in 12 years of Ruby.
