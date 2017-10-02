@@ -107,9 +107,9 @@
   abstract: How can we stop cascading failures in a complex distributed system? How to prevent a network or service failure from cascading to other services and degrade gracefully while doing so? We can achieve that by utilizing a Circuit Breaker pattern.
 
 - name: Taufiq Muhammadi
-  image_url: null
+  image_url: /images/conf/2017/taufiq-pic.jpg
   short_bio: |-
-    I've been doing Ruby development professionally since 2014, taking freelance project from international clients. This year I start bootstrapping my product business, a SaaS build with Ruby and love.
+    I've been doing Ruby development professionally since 2014, taking freelance project from international clients. This year I start bootstrapping my company, a SaaS built with Ruby and love, Kliena.com
   title: "The Future is the Past is the Future: Building a Static Site in 2017"
   abstract: Have you ever noticed that most of the internet is blog like? Wordpress and other CMS has make the commoners web easy, but boring.  This talk will tell you how we party like it's the 90's  using static site tool of 2017, building a hand curated knowledge-base website for our SaaS customer
 
