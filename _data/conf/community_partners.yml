@@ -8,3 +8,6 @@
 - name: HMIF ITB
   url: https://hmif.itb.ac.id
   image_url: /images/conf/2017/hmif-logo.png
+- name: KollaEdu
+  url: http://www.kolla.education
+  image_url: /images/conf/2017/kollaedu-logo.png
