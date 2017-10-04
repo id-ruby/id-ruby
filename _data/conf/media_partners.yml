@@ -4,12 +4,13 @@
 #   url: https://www.url_to.com/
 #   image_url: /images/conf/2017/logo.png # Must be at least 350 x 250 pixels
 
-- name: BNCC
-  url: https://bncc.net/
-  image_url: /images/conf/2017/bncc-sponsor-rubyconf.png
-- name: Filemagz
-  url: http://www.filemagz.com/
-  image_url: /images/conf/2017/file-sponsor-rubyconf.png
+
 - name: Tech in Asia
   url: https://www.techinasia.com/
   image_url: /images/conf/2017/techinasia-sponsor-rubyconf.png
+- name: Filemagz
+  url: http://www.filemagz.com/
+  image_url: /images/conf/2017/file-sponsor-rubyconf.png
+- name: BNCC
+  url: https://bncc.net/
+  image_url: /images/conf/2017/bncc-sponsor-rubyconf.png
