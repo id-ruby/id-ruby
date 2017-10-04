@@ -1,13 +1,15 @@
 # - name: name of partner
 #   url: https://www.url_to.com/
 #   image_url: /images/conf/2017/logo.png # Must be at least 350 x 250 pixels
-
-- name: GeekHunter
-  url: https://geekhunter.co
-  image_url: /images/conf/2017/geek-hunter-sponsor-rubyconf.png
-- name: HMIF ITB
-  url: https://hmif.itb.ac.id
-  image_url: /images/conf/2017/hmif-logo.png
+- name: Python ID
+  url: http://www.python.or.id
+  image_url: /images/conf/2017/python-id-rubyconf.png
 - name: KollaEdu
   url: http://www.kolla.education
   image_url: /images/conf/2017/kollaedu-logo.png
+- name: HMIF ITB
+  url: https://hmif.itb.ac.id
+  image_url: /images/conf/2017/hmif-logo.png  
+- name: GeekHunter
+  url: https://geekhunter.co
+  image_url: /images/conf/2017/geek-hunter-sponsor-rubyconf.png
