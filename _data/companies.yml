@@ -58,6 +58,11 @@
   image_url: images/logo_jualo.png
   description: Jualo is Indonesia's fastest growing and best-in-class eclassifieds marketplace
 
+- name: Jurnal
+  url: https://www.jurnal.id/
+  image_url: images/logo_jurnal.png
+  description: '#1 Online Accounting Software in Indonesia'
+
 - name: Karir
   url: https://www.karir.com/
   image_url: images/logo_karir.jpg
