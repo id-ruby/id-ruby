@@ -12,6 +12,10 @@ inc:
   product_link: "http://ruby.id/conf"
   tagline:      "We love Ruby"
 
+  # Meetup information
+  meetup_name: "January Meetup"
+  meetup_link: "https://www.meetup.com/id-ruby/events/246864926/"
+  
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
