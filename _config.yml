@@ -13,8 +13,9 @@ inc:
   tagline:      "We love Ruby"
 
   # Meetup information
-  meetup_name: "January Meetup"
-  meetup_link: "https://www.meetup.com/id-ruby/events/246864926/"
+  meetup_name: "January 2019 Meetup"
+  meetup_link: "https://www.meetup.com/id-ruby/events/258108712/"
+  meetup_date: "2019-01-31"
   
   # Comments
   disqus:
