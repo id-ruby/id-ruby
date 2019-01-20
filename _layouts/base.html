@@ -43,7 +43,9 @@
             <a href="/blog/">Blog</a>
             <a href="/about/">About</a>
         </nav>
-        {% if site.inc.meetup_link and site.inc.meetup_name %}
+        {% capture today %}{{ 'now' | date: '%s' }}{% endcapture %}
+        {% capture meetup_date %}{{ site.inc.meetup_date | date: '%s' }}{% endcapture %}
+        {% if site.inc.meetup_link and site.inc.meetup_name and meetup_date > today %}
         <nav class="tagline">
             {% if site.inc.meetup_link %}<a href="{{ site.inc.meetup_link }}" target="_blank" class="btn btn-outline">{{ site.inc.meetup_name }}</a>{% endif %}
         </nav>{% endif %}
