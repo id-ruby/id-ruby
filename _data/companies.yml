@@ -8,6 +8,11 @@
   image_url: images/logo_alodokter.png
   description: Alodokter.com adalah situs kesehatan No. 1 di Indonesia.
 
+- name: Apisentris
+  url: https://apisentris.com
+  image_url: images/logo_apisentris.png
+  description: Apisentris is a platform that converts any databases to RestAPI.
+
 - name: BBM
   url: https://careers.bbm.com/
   image_url: images/logo_bbm.png
