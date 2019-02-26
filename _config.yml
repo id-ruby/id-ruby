@@ -6,17 +6,17 @@ inc:
 
   # Company information
   company:      Ruby ID
-  url:          http://ruby.id/
-
-  # Product Information
-  product_link: "http://ruby.id/conf"
-  tagline:      "We love Ruby"
+  url:          https://ruby.id/
 
   # Meetup information
   meetup_name: "January 2019 Meetup"
   meetup_link: "https://www.meetup.com/id-ruby/events/258108712/"
   meetup_date: "2019-01-31"
-  
+
+  # Conference Information
+  conf_text: "2019 Conference"
+  conf_link: "https://ruby.id/conf"
+
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
