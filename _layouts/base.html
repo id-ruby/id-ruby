@@ -11,7 +11,7 @@
 
     {% if site.inc.google_font %}<link href="https://fonts.googleapis.com/css?family={{ site.inc.google_font }}" rel="stylesheet" type="text/css">{% endif %}
     <link href="{{ "/assets/main.css" }}?{{site.time | date: '%s%N'}}" rel="stylesheet">
-    
+
     <meta name="title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     {% if page.site.gplus %}<link rel="publisher" href="https://plus.google.com/{{ site.inc.gplus }}">{% endif %}
@@ -46,9 +46,15 @@
         {% capture today %}{{ 'now' | date: '%s' }}{% endcapture %}
         {% capture meetup_date %}{{ site.inc.meetup_date | date: '%s' }}{% endcapture %}
         {% if site.inc.meetup_link and site.inc.meetup_name and meetup_date > today %}
-        <nav class="tagline">
-            {% if site.inc.meetup_link %}<a href="{{ site.inc.meetup_link }}" target="_blank" class="btn btn-outline">{{ site.inc.meetup_name }}</a>{% endif %}
-        </nav>{% endif %}
+            <nav class="tagline">
+                {% if site.inc.meetup_link %}<a href="{{ site.inc.meetup_link }}" target="_blank" class="btn btn-outline">{{ site.inc.meetup_name }}</a>{% endif %}
+            </nav>
+        {% endif %}
+        {% if site.inc.conf_link %}
+            <nav class="tagline">
+                <a href="{{ site.inc.conf_link }}" target="_blank" class="btn btn-outline">{{ site.inc.conf_text }}</a>
+            </nav>
+        {% endif %}
     </header>
 </section>
 
