@@ -113,6 +113,11 @@
   image_url: images/logo_sejasa.png
   description: Sejasa is a service marketplace to find trusted and recommended service providers in Indonesia.
 
+- name: Sleekr
+  url: https://hr.sleekr.co
+  image_url: images/logo_sleekr.png
+  description: Sleekr provides integrated payroll, human resources, and accounting software for businesses in Indonesia.
+
 - name: Sribulancer
   url: https://www.sribulancer.com/
   image_url: images/logo_sribulancer.png
