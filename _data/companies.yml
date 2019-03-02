@@ -18,6 +18,11 @@
   image_url: images/logo_bbm.png
   description: Operated by KMK Online as a stand-alone business with teams operating from Indonesia, Singapore, Canada, UAE and South Africa.
 
+- name: BelanjaQu
+  url: https://belanjaqu.co.id
+  image_url: images/logo_belanjaqu.png
+  description: BelanjaQu adalah situs jual beli online antar komunitas pertama di Indonesia, menghadirkan sensasi baru dalam berbelanja online.
+
 - name: Binar Academy
   url: https://www.binar.co.id
   image_url: images/logo_binar.png
