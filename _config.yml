@@ -48,7 +48,7 @@ plugins_dir:     ./_plugins
 layouts_dir:     ./_layouts
 include:     ['.htaccess']
 exclude:     []
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 timezone:    nil
 
 # Show future posts
