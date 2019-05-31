@@ -50,6 +50,70 @@ section#box {
   }
 }
 
+.companies {
+  div {
+    float: left;
+    text-align: left;
+    margin: 2em 0 0 3%;
+    height: 18em;
+    overflow: hidden;
+
+    h3 {
+      font-size: 1.5em;
+      margin-bottom: 9px;
+      margin-top: 30px;
+    }
+
+    img {
+       height: 100px;
+       object-fit: contain;
+       max-width: 250px;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #65777c;
+      margin: 0 auto 1.5em;
+      line-height: 1.45;
+    }
+
+    a {
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+
+
+.jobs {
+  div {
+    float: left;
+    text-align: left;
+    margin: 2em 0 0 3%;
+    height: 22em;
+    overflow: hidden;
+
+    h3 {
+      font-size: 1em;
+      margin-bottom: 9px;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    img {
+       height: 300px;
+       object-fit: contain;
+       max-width: 300px;
+    }
+
+    a {
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
 @media (min-width: 1211px) {
    section#box {
       .companies div {
