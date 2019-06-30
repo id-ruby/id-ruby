@@ -1,0 +1,17 @@
+---
+layout: base
+---
+<section id="box">
+  <h2>Jobs Vacancies</h2>
+  <p>In partnership with <a href="https://www.kalibrr.com" target="_blank">Kalibrr</a> </p>
+  <div class="jobs">
+    {% for job in site.data.jobs %}
+      <div>
+        <a href="{{ job.url }}" target="_blank">
+          <img src="{{ job.image_url }}" class="job-img">
+        </a>
+        <h3><a href="{{ job.url }}" target="_blank">{{ job.name }}</a></h3>
+      </div>
+    {% endfor %}
+  </div>
+</section>
