@@ -1,0 +1,15 @@
+# - name: name of sponsor
+#   url: https://www.url_to.com/
+#   image_url: /images/conf/2017/logo.png # Must be at least 350 x 250 pixels
+
+- name: Coming Soon
+  url: https://ruby.id/
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+
+- name: Coming Soon
+  url: https://ruby.id/
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+
+- name: Coming Soon
+  url: https://ruby.id/
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg

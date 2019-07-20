@@ -1,0 +1,27 @@
+# - name: name of speaker
+#   image_url: /images/conf/2017/image.png
+#   note: lorem ipsum
+#   short_bio: lorem ipsum
+#   title: lorem ipsum
+#   abstract: lorem ipsum
+
+- name: Akira Matsuda
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/keynote-akira.jpg
+  note: Conference Keynote
+  short_bio: "Rails committer. Ruby committer. amatsuda on GitHub. Creator of Kaminari. Founder of Asakusa.rb. Chief organizer of RubyKaigi. A Ruby Hero in Tokyo"
+  title: Coming Soon
+  abstract:
+
+- name: Coming Soon
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  note: Conference Keynote
+  short_bio:
+  title:
+  abstract:
+
+- name: Coming Soon
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  note: Conference Keynote
+  short_bio:
+  title:
+  abstract:

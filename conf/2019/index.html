@@ -16,6 +16,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
     <div class="navigation navigation-collapse" id="navCollapse">
       <nav class="navbar">
         <ul>
+          <li><a href="#keynote-speakers">KEYNOTE SPEAKERS</a></li>
           <li><a href="#ticket">TICKET</a></li>
           <li><a href="#venue">VENUE</a></li>
           <li><a href="#schedules">SCHEDULES</a></li>
@@ -41,11 +42,45 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
           <br/>
           <p>September 29, 2019</p>
           <a href="/cfp" class="button button-round button-red button-big">Submit your CFP</a>
+          <br>
+          <span>CFP Submission ends at August 11, 2019 UTC+7</span>
         </div>
       </figcaption>
     </figure>
   </div>
   <!-- #### HOME BANNER END ####  -->
+
+  <!-- #### START KEYNOTE SPEAKERS SECTION #### -->
+  <section id="keynote-speakers" class="main-section bg-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col col-sm-20 col-xs-100">
+          <p class="big-text-2">Keynote Speakers</p>
+        </div>
+        <div class="col col-sm-80 col-xs-100">
+          {% for speaker in site.data.conf.2019.keynote_speakers %}
+          <div class="row row-speaker keynote">
+            <div class="col col-sm-20 col-xs-100">
+              <img src="{{ speaker.image_url }}" alt="{{ speaker.name }}">
+            </div>
+            <div class="col col-sm-80 col-xs-100">
+              <p class="normal-h medium-3">{{ speaker.name }}</p>
+              <p class="normal-h red">{{ speaker.note }}</p>
+              {% if speaker.title %}
+                <p class="medium-4"><strong>Talk Title:</strong> {{ speaker.title }}</p>
+              {% endif %}
+              <p>{{ speaker.abstract }}</p>
+              {% if speaker.short_bio %}
+                <p><strong>Bio:</strong><br />{{ speaker.short_bio }}</p>
+              {% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- #### END KEYNOTE SPEAKERS SECTION #### -->
 
   <!-- #### START TICKET SECTION #### -->
   <section id="ticket" class="main-section bg-maroon">
@@ -97,7 +132,15 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
           <p class="big-text-2">Schedules</p>
         </div>
         <div class="col col-sm-70 col-xs-100" style="margin-top: 30px;">
-          <a href="#" target="_blank" class="button button-round button-grey button-big">Coming Soon</a>
+          <p>*Schedule may changed</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-sm-15 col-xs-100 hidden-xs">
+          <p>&nbsp;</p>
+        </div>
+        <div class="col col-sm-80 col-xs-100" style="margin-top: 30px;">
+          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQFyuBqDYz8LfuCRbEpqHUAl0iqv-3E-3aAAKPcof00MD7yzXzUzGt5i_He6edfqpuL9c2hpdO26ccH/pubhtml?gid=2068813199&&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;range=d1:f25" width="720px" height="752px" style="border: 1px solid #900"></iframe>
         </div>
       </div>
     </div>
@@ -162,9 +205,86 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
       <div class="row">
         <div class="col col-sm-100">
           <p class="big-text-2">Sponsors</p>
-          <a href="#" target="_blank" class="button button-round button-grey button-big">Coming Soon</a>
+          <p class="medium-2">Interested in being RubyConf Indonesia sponsors? Checkout out <a href="https://ruby.id/sponsorship">our Sponsorship Prospectus</a> here!.</p>
+          <br>
         </div>
       </div>
+      {% if site.data.conf.2019.ruby_sponsors.size > 0 %}
+      <div class="row row-bm-line">
+        <div class="wrap-col-1">
+          <div class="wrap-col-2">
+            <div class="col col-sm-30 col-xs-100 col-lt">
+              <p class="medium-2">Ruby Sponsors</p>
+            </div>
+            <div class="col col-sm-70 col-xs-100 col-rt">
+              {% for sponsor in site.data.conf.2019.ruby_sponsors %}
+                <div class="sponsor-rt">
+                  <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if site.data.conf.2019.gold_sponsors.size > 0 %}
+      <div class="row row-bm-line">
+        <div class="wrap-col-1">
+          <div class="wrap-col-2">
+            <div class="col col-sm-30 col-xs-100 col-lt">
+              <p class="medium-2">Gold Sponsors</p>
+            </div>
+            <div class="col col-sm-70 col-xs-100 col-rt">
+              {% for sponsor in site.data.conf.2019.gold_sponsors %}
+                <div class="sponsor-rt">
+                  <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if site.data.conf.2019.media_partners.size > 0 %}
+      <div class="row row-bm-line">
+        <div class="wrap-col-1">
+          <div class="wrap-col-2">
+            <div class="col col-sm-30 col-xs-100 col-lt">
+              <p class="medium-2">Media Partners</p>
+            </div>
+            <div class="col col-sm-70 col-xs-100 col-rt">
+              {% for sponsor in site.data.conf.2019.media_partners %}
+                <div class="sponsor-rt">
+                  <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if site.data.conf.2019.community_partners.size > 0 %}
+      <div class="row row-bm-line">
+        <div class="wrap-col-1">
+          <div class="wrap-col-2">
+            <div class="col col-sm-30 col-xs-100 col-lt">
+              <p class="medium-2">Community Partners</p>
+            </div>
+            <div class="col col-sm-70 col-xs-100 col-rt">
+              {% for sponsor in site.data.conf.2019.community_partners %}
+                <div class="sponsor-rt">
+                  <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
     </div>
   </section>
   <!-- #### END SPONSORS SECTION #### -->
