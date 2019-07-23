@@ -1,36 +1,43 @@
-- name: Full Stack Engineer - DCI
-  url: http://bit.ly/FSE-DCI
-  image_url: https://res.cloudinary.com/perkodi/image/upload/v1561451513/ruby.id/jobs/dci_twvdhz.jpg
+- name: TIPS - 5 Tips Makin Percaya Diri
+  url: http://bit.ly/Tips-PD
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1563882881/ruby.id/jobs/5_Tips_Makin_Percaya_Diri_owelyh.jpg
 
-- name: Back End Engineer - Finaccel
-  url: http://bit.ly/BEE-FA
-  image_url: https://res.cloudinary.com/perkodi/image/upload/v1561451513/ruby.id/jobs/finaccel_owv1sa.jpg
+- name: TIPS - Tips Membangung Personal Branding
+  url: http://bit.ly/Tips-PB
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1563882881/ruby.id/jobs/Tips_Membangun_Personal_Branding_vqh4oi.jpg
 
-- name: IT Specialist Security - IBM
-  url: http://bit.ly/ITSS-IBM
-  image_url: https://res.cloudinary.com/perkodi/image/upload/v1561451513/ruby.id/jobs/ibm_fd67yx.jpg
+- name: Software Engineer iOS (Technology) - Tokopedia
+  url: http://bit.ly/TKP-SE
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1563882647/ruby.id/jobs/tokopedia_sjh8rt.jpg
 
-- name: Front End Engineer - Kargo
-  url: http://bit.ly/FEE-KT
-  image_url: https://res.cloudinary.com/perkodi/image/upload/v1561451513/ruby.id/jobs/kargo_oqwnpn.jpg
+- name: Development & Operations (DevOps) Engineer - Anabatic
+  url: http://bit.ly/ANBT-DOE
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1563882641/ruby.id/jobs/anabatic_lwwoy8.jpg
 
-- name: Frontend Developer (Android/IOS) - Mandiri
-  url: http://bit.ly/DDL-BM
-  image_url: https://res.cloudinary.com/perkodi/image/upload/v1561451514/ruby.id/jobs/mandiri-developer_sdoju2.jpg
+- name: Server Developer - Algoritma
+  url: http://bit.ly/ALGO-SD
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1563882637/ruby.id/jobs/algoritma_yjilcj.jpg
+  
+- name: IT Business System Analyst - ACC
+  url: http://bit.ly/ACC-BSA
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1563882640/ruby.id/jobs/Astra_Credit_Companies_-_BSA_y0qloq.jpg
 
-- name: Back End Software Engineer - OVO
-  url: http://bit.ly/BESE-OVO
-  image_url: https://res.cloudinary.com/perkodi/image/upload/v1561451515/ruby.id/jobs/ovo_jbuf7u.jpg
+- name: Native (Android/IOS) - InMotion
+  url: http://bit.ly/IIT-NTV
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1563882624/ruby.id/jobs/InMotion_ieo1ph.jpg
 
-- name: Software Engineer - Pomona
-  url: http://bit.ly/SE-POMONA
-  image_url: https://res.cloudinary.com/perkodi/image/upload/v1561451515/ruby.id/jobs/pomona_bvpq7v.jpg
+- name: IT Database Administrator - ACC
+  url: http://bit.ly/ACC-ITDA
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1563882640/ruby.id/jobs/Astra_Credit_Companies_-_ITDA_ahe8ms.jpg
 
-- name: Technical Architect - Tokopedia
-  url: http://bit.ly/TA-Toped
-  image_url: https://res.cloudinary.com/perkodi/image/upload/v1561451516/ruby.id/jobs/tokopedia_dppejd.jpg
+- name: Full Stack Developer - GDN
+  url: http://bit.ly/GN-FSD
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1563882650/ruby.id/jobs/GDN_obwa6d.jpg
+
+- name: Back End Engineer - Astra Financial
+  url: http://bit.ly/ACC-BE
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1563882645/ruby.id/jobs/astra_financial_bjccpk.jpg
 
 - name: Web Engineer - Quipper
   url: https://career.quipper.com/id/jobs/web-engineer
   image_url: https://lh3.googleusercontent.com/5013m5cDvlnX-DpEGUaZL5nyt4fIsr_jH-jM2UcHI7VXNDHItcjj1OiFluvHLCbIyCpcMl7SOMEXkgq1LiqktgH5VDrGl7wo8RU0TtIKjzYGXZPIReBnukoIcSSqivJgdL5gWJUM9g=s1832-no
-
