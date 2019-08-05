@@ -1,0 +1,11 @@
+# - name: name of sponsor
+#   url: https://www.url_to.com/
+#   image_url: /images/conf/2017/logo.png # Must be at least 350 x 250 pixels
+
+- name: Cookpad
+  url: https://www.cookpadteam.com/
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1565019326/rubyconfid2019/ruby_sponsor_cookpad.jpg
+
+- name: Go-Jek
+  url: https://gojek.com
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1565019326/rubyconfid2019/ruby_sponsor_gojek.jpg
