@@ -58,7 +58,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
           <p class="big-text-2">Keynote Speakers</p>
         </div>
         <div class="col col-sm-80 col-xs-100">
-          {% for speaker in site.data.conf.2019.keynote_speakers %}
+          {% for speaker in site.data.conf_2019.keynote_speakers %}
           <div class="row row-speaker keynote">
             {% if speaker.image_url %}
               <div class="col col-sm-20 col-xs-100">
@@ -204,7 +204,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
           <br>
         </div>
       </div>
-      {% if site.data.conf.2019.ruby_sponsors.size > 0 %}
+      {% if site.data.conf_2019.ruby_sponsors.size > 0 %}
       <div class="row row-bm-line">
         <div class="wrap-col-1">
           <div class="wrap-col-2">
@@ -212,7 +212,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
               <p class="medium-2">Ruby Sponsors</p>
             </div>
             <div class="col col-sm-70 col-xs-100 col-rt">
-              {% for sponsor in site.data.conf.2019.ruby_sponsors %}
+              {% for sponsor in site.data.conf_2019.ruby_sponsors %}
                 <a href="{{ sponsor.url }}" target="_blank" class="sponsor-rt" title="{{ sponsor.name }}">
                   <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
                 </a>
@@ -223,7 +223,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
       </div>
       {% endif %}
 
-      {% if site.data.conf.2019.gold_sponsors.size > 0 %}
+      {% if site.data.conf_2019.gold_sponsors.size > 0 %}
       <div class="row row-bm-line">
         <div class="wrap-col-1">
           <div class="wrap-col-2">
@@ -231,7 +231,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
               <p class="medium-2">Gold Sponsors</p>
             </div>
             <div class="col col-sm-70 col-xs-100 col-rt">
-              {% for sponsor in site.data.conf.2019.gold_sponsors %}
+              {% for sponsor in site.data.conf_2019.gold_sponsors %}
                 <div class="sponsor-rt">
                   <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
                 </div>
@@ -242,7 +242,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
       </div>
       {% endif %}
 
-      {% if site.data.conf.2019.media_partners.size > 0 %}
+      {% if site.data.conf_2019.media_partners.size > 0 %}
       <div class="row row-bm-line">
         <div class="wrap-col-1">
           <div class="wrap-col-2">
@@ -250,7 +250,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
               <p class="medium-2">Media Partners</p>
             </div>
             <div class="col col-sm-70 col-xs-100 col-rt">
-              {% for sponsor in site.data.conf.2019.media_partners %}
+              {% for sponsor in site.data.conf_2019.media_partners %}
                 <div class="sponsor-rt">
                   <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
                 </div>
@@ -261,7 +261,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
       </div>
       {% endif %}
 
-      {% if site.data.conf.2019.community_partners.size > 0 %}
+      {% if site.data.conf_2019.community_partners.size > 0 %}
       <div class="row row-bm-line">
         <div class="wrap-col-1">
           <div class="wrap-col-2">
@@ -269,7 +269,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
               <p class="medium-2">Community Partners</p>
             </div>
             <div class="col col-sm-70 col-xs-100 col-rt">
-              {% for sponsor in site.data.conf.2019.community_partners %}
+              {% for sponsor in site.data.conf_2019.community_partners %}
                 <div class="sponsor-rt">
                   <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
                 </div>
