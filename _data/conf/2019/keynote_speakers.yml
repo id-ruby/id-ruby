@@ -6,21 +6,21 @@
 #   abstract: lorem ipsum
 
 - name: Akira Matsuda
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/keynote-akira.jpg
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1563630231/rubyconfid2019/keynote-akira.jpg
   note: Conference Keynote
   short_bio: "Rails committer. Ruby committer. amatsuda on GitHub. Creator of Kaminari. Founder of Asakusa.rb. Chief organizer of RubyKaigi. A Ruby Hero in Tokyo"
   title: Coming Soon
   abstract:
 
-- name: Coming Soon
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+- name: Ryan Bigg
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1565017308/rubyconfid2019/keynote-ryan.jpg
   note: Conference Keynote
-  short_bio:
-  title:
+  short_bio: "Author of technical books on Ruby, Rails, and Elixir. Currently working as Junior Engineering Program Lead at Culture Amp, he is responsible to mentor new developers into the confident and capable developers of the future."
+  title: Coming Soon
   abstract:
 
 - name: Coming Soon
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  image_url:
   note: Conference Keynote
   short_bio:
   title:
