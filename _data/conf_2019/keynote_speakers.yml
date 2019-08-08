@@ -6,6 +6,7 @@
 #   abstract: lorem ipsum
 
 - name: Akira Matsuda
+  url: https://github.com/amatsuda
   image_url: https://res.cloudinary.com/perkodi/image/upload/v1563630231/rubyconfid2019/keynote-akira.jpg
   note: Conference Keynote
   short_bio: "Rails committer. Ruby committer. amatsuda on GitHub. Creator of Kaminari. Founder of Asakusa.rb. Chief organizer of RubyKaigi. A Ruby Hero in Tokyo"
@@ -13,11 +14,13 @@
   abstract:
 
 - name: Ryan Bigg
+  url: https://ryanbigg.com/
   image_url: https://res.cloudinary.com/perkodi/image/upload/v1565017308/rubyconfid2019/keynote-ryan.jpg
   note: Conference Keynote
-  short_bio: "Author of technical books on Ruby, Rails, and Elixir. Currently working as Junior Engineering Program Lead at Culture Amp, he is responsible to mentor new developers into the confident and capable developers of the future."
-  title: Coming Soon
-  abstract:
+  short_bio: "Ryan is the Junior Engineering Program Lead at Culture Amp and it's his responsibility to mentor new developers into the confident and capable developers of the future. <br/><br/>
+              He has written almost 10 technical books with over 15,000 copies sold world-wide. He loves teaching and mentoring developers through his work and strives to help as many people as possible."
+  title: "Hiring Juniors"
+  abstract: "The best talent of today is already working for someone else. Hiring them involves aggressive poaching, which isn't sustainable in the long-term. Let's look at how companies around the world are growing their own best and brightest and what's worked for them."
 
 - name: Coming Soon
   image_url:
