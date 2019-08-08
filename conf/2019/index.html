@@ -66,7 +66,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
               </div>
             {% endif %}
             <div class="col col-sm-80 col-xs-100">
-              <p class="normal-h medium-3">{{ speaker.name }}</p>
+              <p class="normal-h medium-3"><a href="{{ speaker.url }}">{{ speaker.name }}</a></p>
               <p class="normal-h red">{{ speaker.note }}</p>
               {% if speaker.title %}
                 <p class="medium-4"><strong>Talk Title:</strong> {{ speaker.title }}</p>
