@@ -252,7 +252,9 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
             <div class="col col-sm-70 col-xs-100 col-rt">
               {% for sponsor in site.data.conf_2019.media_partners %}
                 <div class="sponsor-rt">
-                  <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
+                  <a href="{{ sponsor.url }}" target="_blank" title="{{ sponsor.name }}">
+                    <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
+                  </a>
                 </div>
               {% endfor %}
             </div>
@@ -271,13 +273,36 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
             <div class="col col-sm-70 col-xs-100 col-rt">
               {% for sponsor in site.data.conf_2019.community_partners %}
                 <div class="sponsor-rt">
-                  <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
+                    <a href="{{ sponsor.url }}" target="_blank" title="{{ sponsor.name }}">
+                    <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
+                  </a>
                 </div>
               {% endfor %}
             </div>
           </div>
         </div>
       </div>
+      {% endif %}
+
+      {% if site.data.conf_2019.other_sponsors.size > 0 %}
+        {% for sponsor in site.data.conf_2019.other_sponsors %}
+          <div class="row row-bm-line">
+            <div class="wrap-col-1">
+              <div class="wrap-col-2">
+                <div class="col col-sm-30 col-xs-100 col-lt">
+                  <p class="medium-2">{{ sponsor.title }}</p>
+                </div>
+                <div class="col col-sm-70 col-xs-100 col-rt">
+                  <div class="sponsor-rt">
+                    <a href="{{ sponsor.url }}" target="_blank" title="{{ sponsor.name }}">
+                      <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
       {% endif %}
 
     </div>

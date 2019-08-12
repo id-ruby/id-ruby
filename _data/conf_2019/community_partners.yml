@@ -2,6 +2,10 @@
 #   url: https://www.url_to.com/
 #   image_url: /images/conf/2017/logo.png # Must be at least 350 x 250 pixels
 
-- name: Coming Soon
-  url: https://ruby.id/
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+- name: Deep Tech
+  url: https://www.instagram.com/deeptech.id/
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1565623378/rubyconfid2019/partner_DeepTech_vpq2gu.jpg
+
+- name: Jakarta JS
+  url: https://jakartajs.org/
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1565623378/rubyconfid2019/partner_JakartaJS_ghl74c.jpg

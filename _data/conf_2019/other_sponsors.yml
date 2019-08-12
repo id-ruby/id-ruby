@@ -1,0 +1,15 @@
+# Order started from the last item because of right alignment
+#
+# - name: name of partner
+#   url: https://www.url_to.com/
+#   image_url: /images/conf/2017/logo.png # Must be at least 350 x 250 pixels
+
+- title: Speakers Dinner Sponsor
+  name: Gojek
+  url: https://gojek.com/
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1565622716/rubyconfid2019/gojek_dinner_sponsor_nwatqs.jpg
+
+- title: Venue Sponsor
+  name: Vidio
+  url: https://vidio.com/
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1565623840/rubyconfid2019/video_venue_sponsor_koittq.jpg
