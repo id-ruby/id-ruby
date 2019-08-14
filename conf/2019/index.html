@@ -8,15 +8,14 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
 <!-- #### HEADER START #### -->
 <header class="site-nav fixed-nav">
   <div class="container">
-    <div class="logo">
-      <a href="#">
-        <img src="{{ '/assets/conf/logo_rubyconfid_2019.png' }}">
-      </a>
-    </div>
+    <button class="navbar-toggle" data-behavior='buttonToggle' data-target="#navCollapse">
+      <img src="{{ '/assets/conf/icon-bars.svg' }}">
+    </button>
     <div class="navigation navigation-collapse" id="navCollapse">
       <nav class="navbar">
         <ul>
-          <li><a href="#keynote-speakers">KEYNOTE SPEAKERS</a></li>
+          <li><a href="#keynote-speakers">KEYNOTES</a></li>
+          <li><a href="#speakers">SPEAKERS</a></li>
           <li><a href="#ticket">TICKET</a></li>
           <li><a href="#venue">VENUE</a></li>
           <li><a href="#schedules">SCHEDULES</a></li>
@@ -26,6 +25,11 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
           <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
+    </div>
+    <div class="logo">
+      <a href="#">
+        <img src="{{ '/assets/conf/logo_rubyconfid_2019.png' }}">
+      </a>
     </div>
   </div>
 </header>
@@ -53,7 +57,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
     <div class="container">
       <div class="row">
         <div class="col col-sm-20 col-xs-100">
-          <p class="big-text-2">Keynote Speakers</p>
+          <p class="big-text-2">Keynotes</p>
         </div>
         <div class="col col-sm-80 col-xs-100">
           {% for speaker in site.data.conf_2019.keynote_speakers %}
@@ -81,6 +85,38 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
     </div>
   </section>
   <!-- #### END KEYNOTE SPEAKERS SECTION #### -->
+
+  <!-- #### START SPEAKERS SECTION #### -->
+  <section id="speakers" class="main-section bg-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col col-sm-20 col-xs-100">
+          <p class="big-text-2">Speakers</p>
+        </div>
+        <div class="col col-sm-80 col-xs-100">
+          {% for speaker in site.data.conf_2019.speakers %}
+          <div class="row row-speaker keynote">
+            <div class="col col-sm-20 col-xs-100">
+              {% if speaker.image_url %}
+                <img src="{{ speaker.image_url }}" alt="{{ speaker.name }}">
+              {% else %}
+                <span>&nbsp;</span>
+              {% endif %}
+            </div>
+            <div class="col col-sm-80 col-xs-100">
+              <p class="normal-h medium-3">{{ speaker.name }}</p>
+              <p class="medium-4"><strong>Title:</strong> {{ speaker.title }}</p>
+              <p>{{ speaker.abstract }}</p>
+              <p><a href="#" data-behavior="buttonToggle" data-target="#speaker{{ forloop.index }}" class="button button-round button-grey">Show Bio</a></p>
+              <div id="speaker{{ forloop.index }}" class="hidden">{{ speaker.short_bio }}</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- #### END SPEAKERS SECTION #### -->
 
   <!-- #### START TICKET SECTION #### -->
   <section id="ticket" class="main-section bg-maroon">
@@ -325,7 +361,9 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
       </div>
       <div class="row">
         <div class="col col-sm-100 text-center">
-          <img src="{{ '/assets/conf/id-ruby-perkodi.png' }}" alt="ID-Ruby Perkodi Logo"/>
+          <a href="https://ruby.id" target="_blank">
+            <img src="{{ '/assets/conf/id-ruby-perkodi.png' }}" alt="ID-Ruby Perkodi Logo"/>
+          </a>
         </div>
       </div>
     </div>
