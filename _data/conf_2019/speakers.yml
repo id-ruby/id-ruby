@@ -1,0 +1,73 @@
+# - name: name of speaker
+#   image_url: /images/conf/2017/image.png
+#   note: lorem ipsum
+#   short_bio: lorem ipsum
+
+- name: Burhanudin Hakim
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  short_bio: "I'm Software Engineer with Ruby as primary programming language"
+  title: Trying Sorbet for the first time
+  abstract: "We have developed a data pipeline application using Ruby with a goal of helping clients automate synchronizing their Sales Report from Accounting System to CRM.
+    This talk shares experience of first time adopting Sorbet in our data pipeline application. The codebase start from scratch with typechecker enabled. The talk will describe:
+
+    - getting started with Sorbet
+    - community support
+    - lesson learned
+
+    The talk doesn't require any previous knowledge of types and should be accessible to a broad audience."
+
+- name: Muhammad Himanghadi Aynun Bihaj Sharatun
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  short_bio: "I was a machine learning engineer that start a new journey as back-end Engineer at Bukalapak last year. Currently, I focus on developing loyalty point feature for Mitra Bukalapak using Ruby on Rails with the help of my amazing team mate. I believe that the ultimate form of learning is when you celebrate your mistake by sharing to other and ensure that no one makes the same mistake. That's why I'm looking forward to share my experience as back-end engineer at Bukalapak with ruby community."
+  title: How Database Index Optimize Your Query for Dummies
+  abstract: "Leaky abstraction is a case when something goes wrong with abstraction that we use, but we don’t know why. Most likely it happens simply because we forget or too lazy to understand the system behind the abstraction. This case is also happen in query optimization especially when it involves index. Using Ruby ORM such as ActiveRecord or Sequel is convenient. It does a good job to abstract how query planner, and storage engine actually works, but sometimes it creates misconception that results into slow queries or inefficient use of index. On the other hand trying to understand how index actually implemented in various storage engine is quite challenging. Therefore by using simple mental map that visualizes index as some variation of sorted hash-map, we will discuss BTree database indexing in InnoDB Engine. Once we understand the fundamental concept of database index, then we will discuss various query example and try to analyze which query is inefficient and why."
+
+- name: Paul Joe George
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  short_bio:
+  title: Motor-on-voice, an experiment using mruby/c and Sinatra
+  abstract: "The usage of smart assistants is rapidly increasing day by day.
+    Smart assistants can keep things simple and easily accessible.
+    Most importantly it can reduce effort and time consumption.
+
+    Nowadays it is not necessary to own a smart device like Alexa Echo, Google Home or any other. A cheaper option to install it on our phone is available for free now; it has improved the portability factor as well.
+
+    This is an experiment to trigger motor and check the motor's running status by using voice commands.
+
+    API’s required for Alexa Skill is developed using Sinatra, a Ruby web application framework and Motor operations are implemented by using mruby/c"
+
+- name: प्रथमेश (Pratamesh) Sonpatki
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  short_bio: "Prathamesh is developer at Memory.ai. He builds web apps using Rails and React.js!. He is interested in open source and contributes to many Ruby and Rails related projects. He is part of Rails issues team and contributes heavily to Ruby on Rails and related projects. He likes Emacs operating system a lot and can be found constantly tweaking his .emacs.d"
+  title: State of the art of managing assets in the new Rails world
+  abstract: "Rails 6 will use webpacker to manage JavaScript code instead of asset pipeline aka sprockets. We have lot of questions to answer. Why webpacker? What does it bring to the table? What about my old code? Is Webpacker same as the old asset pipeline? In this talk we will unravel this mystery and see ways to manage our same old JavaScript in a whole new way."
+
+- name: Waiting for confirmation
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  short_bio:
+  title:
+  abstract:
+
+- name: Waiting for confirmation
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  short_bio:
+  title:
+  abstract:
+
+- name: Waiting for confirmation
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  short_bio:
+  title:
+  abstract:
+
+- name: Waiting for confirmation
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  short_bio:
+  title:
+  abstract:
+
+- name: Waiting for confirmation
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  short_bio:
+  title:
+  abstract:

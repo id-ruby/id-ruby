@@ -211,51 +211,45 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .logo {
-  float: left;
-  padding: 20px;
-  width: 250px;
-  height: auto;
-  a img {
-    width: 100%;
+  img {
+    width: 250px;
   }
 }
 
 @media (max-width: 767px) {
   .logo {
-    width: 180px;
-    height: auto;
+    img {
+      width: 180px;
+    }
   }
 }
 
 .site-nav {
-  .navigation {
-    float: right;
+  border-bottom: 1px solid #eee;
+
+  ul {
+    padding-left: 0;
+    list-style: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  li {
     position: relative;
-    padding: 25px;
+    margin-right: 10px;
+    display: inline;
   }
-  nav {
-    float: right;
-    ul {
-      padding-left: 0;
-      margin-bottom: 0;
-      list-style: none;
-      float: left;
-    }
-    li {
-      position: relative;
-      display: block;
-      float: left;
-      margin-right: 40px;
-    }
-    a {
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 800;
-      font-size: 12px;
-      &.active {
-        color: #ec1c24;
-      }
+
+  a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    display: inline-block;
+
+    &.active {
+      color: #ec1c24;
     }
   }
+
   .cfp-header {
     float: right;
     position: relative;
@@ -296,8 +290,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 @media (max-width: 767px) {
   .site-nav {
     .navigation {
-      float: left;
       padding: 5px 0px 25px 0px;
+      clear: both;
+      width: 100%;
     }
     .cfp-header {
       float: none;
@@ -307,11 +302,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     nav {
       float: none;
       padding-left: 5px;
-      li {
-        float: none;
-        padding-top: 10px;
-        padding-bottom: 10px;
-      }
+    }
+
+    ul {
+      float: none;
+    }
+
+    li {
+      float: none;
+      border-top: 1px solid #ccc;
+      margin: 0;
+    }
+
+    a {
+      padding: 10px;
+      display: block;
     }
   }
 }
