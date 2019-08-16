@@ -37,7 +37,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 
 .row-bm-line {
-  border-bottom: 1px #000 solid;
+  border-bottom: 1px #ddd solid;
 }
 
 .clearfix:after, .container:after, .row:after {
@@ -572,15 +572,8 @@ p {
 
 section {
   width: 100%;
-  margin-top: 70px;
   margin-left: 0px;
   margin-right: 0px;
-}
-
-@media (max-width: 480px) {
-  section {
-      margin-top: 30px;
-  }
 }
 
 .main-section {
@@ -710,16 +703,12 @@ section {
 
 .box-conduct {
   margin-top: -150px;
-  padding-left: 150px;
-  padding-right: 150px;
   max-width: 100%;
 }
 .box-contact {
-    margin-top: -100px;
-    padding-left: 150px;
-    padding-right: 150px;
-    max-width: 100%;
-    float: none;
+  margin-top: -100px;
+  max-width: 100%;
+  float: none;
 }
 .box-contact p {
   color: #000;
@@ -784,9 +773,16 @@ section {
   float: left;
   margin-top: -100px;
   height: 400px;
+
   iframe {
     width: 100%;
     height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    & {
+      margin-top: 0;
+    }
   }
 }
 
@@ -893,6 +889,15 @@ table {
 .sponsor-rt {
   float: right;
   margin-right: 10px;
+
+  @media (max-width: 768px) {
+    & {
+      display: block;
+      text-align: center;
+      float: none;
+      margin: 0 auto;
+    }
+  }
 }
 
 @media (max-width: 992px) {
