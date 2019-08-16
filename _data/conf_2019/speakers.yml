@@ -3,6 +3,12 @@
 #   note: lorem ipsum
 #   short_bio: lorem ipsum
 
+- name: Ageng Mufti Syafii Hakim
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  short_bio: I'm software engineer in vidio.com, working mainly with ruby and Ruby on Rails.
+  title: Writing DNS over HTTPS Server in Ruby
+  abstract: As software engineer, especially web developer, it will be nice if we know how HTTP and DNS works, the foundation on which world wide web is built upon. In this talk we will learn how HTTP and Domain Name resolution works, then we will build DNS over HTTPS as a study case.
+
 - name: Burhanudin Hakim
   image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
   short_bio: "I'm Software Engineer with Ruby as primary programming language"
@@ -42,23 +48,11 @@
   title: State of the art of managing assets in the new Rails world
   abstract: "Rails 6 will use webpacker to manage JavaScript code instead of asset pipeline aka sprockets. We have lot of questions to answer. Why webpacker? What does it bring to the table? What about my old code? Is Webpacker same as the old asset pipeline? In this talk we will unravel this mystery and see ways to manage our same old JavaScript in a whole new way."
 
-- name: Waiting for confirmation
+- name: Raka Ardhi
   image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
-  short_bio:
-  title:
-  abstract:
-
-- name: Waiting for confirmation
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
-  short_bio:
-  title:
-  abstract:
-
-- name: Waiting for confirmation
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
-  short_bio:
-  title:
-  abstract:
+  short_bio: Started off as a Visual Designer and Software Engineer for 4 years; Currently working as Subject Matter Expert and Syllabus Developer at Hacktiv8 Jakarta, teach everything about programming including Ruby.
+  title: "Ruby: The Reality Stone"
+  abstract: "This hidden gems will save your life; One of six Infinity Stone that could shape your reality, because everything will be your object you can manipulate. Legend has it the stone called Ruby. Ruby's flexibility and expressiveness makes it great for performing signature moves (DSLs) and forging armors (frameworks) and for making spells (writing code) with very little boilerplate (no gauntlet needed). And after more than a decade, Ruby is still the easiest language you can learn. So prepare your minecart, put it on Rails, and get your own Ruby: The Reality Stone."
 
 - name: Waiting for confirmation
   image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg

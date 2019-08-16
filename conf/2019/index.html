@@ -45,7 +45,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
           <h1>Modern Web <br/>With Ruby</h1>
           <br/>
           <p>September 29, 2019</p>
-          <a href="/ticket" class="button button-round button-red button-big">Early Bird Tickets Available!</a>
+          <a href="/ticket" class="button button-round button-red button-big">Get Early Bird Tickets</a>
         </div>
       </figcaption>
     </figure>
@@ -63,13 +63,13 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
           {% for speaker in site.data.conf_2019.keynote_speakers %}
           <div class="row row-speaker keynote">
             {% if speaker.image_url %}
-              <div class="col col-sm-20 col-xs-100">
+              <div class="col col-sm-20">
                 <img src="{{ speaker.image_url }}" alt="{{ speaker.name }}">
               </div>
             {% endif %}
-            <div class="col col-sm-80 col-xs-100">
-              <p class="normal-h medium-3"><a href="{{ speaker.url }}">{{ speaker.name }}</a></p>
-              <p class="normal-h red">{{ speaker.note }}</p>
+            <div class="col col-sm-80">
+              <p class="medium-3"><a href="{{ speaker.url }}">{{ speaker.name }}</a></p>
+              <p class="red">{{ speaker.note }}</p>
               {% if speaker.title %}
                 <p class="medium-4"><strong>Talk Title:</strong> {{ speaker.title }}</p>
               {% endif %}
@@ -96,15 +96,15 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
         <div class="col col-sm-80 col-xs-100">
           {% for speaker in site.data.conf_2019.speakers %}
           <div class="row row-speaker keynote">
-            <div class="col col-sm-20 col-xs-100">
+            <div class="col col-sm-20">
               {% if speaker.image_url %}
                 <img src="{{ speaker.image_url }}" alt="{{ speaker.name }}">
               {% else %}
                 <span>&nbsp;</span>
               {% endif %}
             </div>
-            <div class="col col-sm-80 col-xs-100">
-              <p class="normal-h medium-3">{{ speaker.name }}</p>
+            <div class="col col-sm-80">
+              <p class="medium-3">{{ speaker.name }}</p>
               <p class="medium-4"><strong>Title:</strong> {{ speaker.title }}</p>
               <p>{{ speaker.abstract }}</p>
               <p><a href="#" data-behavior="buttonToggle" data-target="#speaker{{ forloop.index }}" class="button button-round button-grey">Show Bio</a></p>
@@ -145,9 +145,9 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
         </div>
       </div>
       <div class="row">
-        <div class="col col-sm-15 col-xs-100 hidden-xs">&nbsp;</div>
+        <div class="col col-sm-15 hidden-xs">&nbsp;</div>
         <div class="col col-sm-80 col-xs-100">
-          <div class="col col-sm-100 col-xs-100">
+          <div class="col col-sm-100">
             <div class="box-sr venue-address">
               <span class="text-red">ADDRESS</span>
               <p class="medium-2"><strong>SCTV Hall</strong>, Senayan City</p>
@@ -167,7 +167,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
         <div class="col col-sm-20 col-xs-100">
           <p class="big-text-2">Schedules</p>
         </div>
-        <div class="col col-sm-70 col-xs-100" style="margin-top: 30px;">
+        <div class="col col-sm-70 col-xs-100">
           <a href="schedules" class="button button-round button-red button-big">See schedules</a>
           <p>*Schedules may changed</p>
         </div>
@@ -183,7 +183,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
         <div class="col col-sm-20 col-xs-100">
           <p class="big-text-2">Committee</p>
         </div>
-        <div class="col col-sm-70 col-xs-100" style="margin-top: 30px;">
+        <div class="col col-sm-70 col-xs-100">
           <p><a href="https://ruby.id">Indonesia Ruby Community (ID-Ruby)</a> was established in 2001, once started as a Yahoo mailing list group. Following Ruby’s increasing trend through the years, ID-Ruby has been growing and <a href="https://ruby.id/meetup">holding monthly meetups</a>. We are active in <a href="https://ruby.id/slack" target="_blank">Slack (500+ members)</a> and <a href="https://ruby.id/telegram" target="_blank">Telegram (800+ members).</a></p>
         </div>
       </div>
@@ -195,7 +195,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
   <section id="conduct" class="main-section">
     <div class="container">
       <div class="row">
-        <div class="col col-sm-100 col-xs-100">
+        <div class="col col-sm-100">
           <div class="box-sr box-conduct">
             <p class="big-text-2">Conduct</p>
             <div style="margin-bottom:40px;">
@@ -219,10 +219,6 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
             </div>
           </div>
         </div>
-        <div class="col col-sm-15 col-xs-100">
-        </div>
-        <div class="col col-sm-80 col-xs-100">
-        </div>
       </div>
     </div>
   </section>
@@ -242,10 +238,10 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
       <div class="row row-bm-line">
         <div class="wrap-col-1">
           <div class="wrap-col-2">
-            <div class="col col-sm-30 col-xs-100 col-lt">
+            <div class="col col-sm-30 col-lt col-xs-100">
               <p class="medium-2">Ruby Sponsors</p>
             </div>
-            <div class="col col-sm-70 col-xs-100 col-rt">
+            <div class="col col-sm-70 col-rt col-xs-100">
               {% for sponsor in site.data.conf_2019.ruby_sponsors %}
                 <a href="{{ sponsor.url }}" target="_blank" class="sponsor-rt" title="{{ sponsor.name }}">
                   <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
@@ -261,14 +257,14 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
       <div class="row row-bm-line">
         <div class="wrap-col-1">
           <div class="wrap-col-2">
-            <div class="col col-sm-30 col-xs-100 col-lt">
+            <div class="col col-sm-30 col-lt col-xs-100">
               <p class="medium-2">Gold Sponsors</p>
             </div>
-            <div class="col col-sm-70 col-xs-100 col-rt">
+            <div class="col col-sm-70 col-rt col-xs-100">
               {% for sponsor in site.data.conf_2019.gold_sponsors %}
-                <div class="sponsor-rt">
+                <a href="{{ sponsor.url }}" target="_blank" class="sponsor-rt" title="{{ sponsor.name }}">
                   <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
-                </div>
+                </a>
               {% endfor %}
             </div>
           </div>
@@ -280,16 +276,14 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
       <div class="row row-bm-line">
         <div class="wrap-col-1">
           <div class="wrap-col-2">
-            <div class="col col-sm-30 col-xs-100 col-lt">
+            <div class="col col-sm-30 col-lt col-xs-100">
               <p class="medium-2">Media Partners</p>
             </div>
-            <div class="col col-sm-70 col-xs-100 col-rt">
+            <div class="col col-sm-70 col-rt col-xs-100">
               {% for sponsor in site.data.conf_2019.media_partners %}
-                <div class="sponsor-rt">
-                  <a href="{{ sponsor.url }}" target="_blank" title="{{ sponsor.name }}">
-                    <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
-                  </a>
-                </div>
+                <a href="{{ sponsor.url }}" target="_blank" class="sponsor-rt" title="{{ sponsor.name }}">
+                  <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
+                </a>
               {% endfor %}
             </div>
           </div>
@@ -301,16 +295,14 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
       <div class="row row-bm-line">
         <div class="wrap-col-1">
           <div class="wrap-col-2">
-            <div class="col col-sm-30 col-xs-100 col-lt">
+            <div class="col col-sm-30 col-lt col-xs-100">
               <p class="medium-2">Community Partners</p>
             </div>
-            <div class="col col-sm-70 col-xs-100 col-rt">
+            <div class="col col-sm-70 col-rt col-xs-100">
               {% for sponsor in site.data.conf_2019.community_partners %}
-                <div class="sponsor-rt">
-                    <a href="{{ sponsor.url }}" target="_blank" title="{{ sponsor.name }}">
-                    <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
-                  </a>
-                </div>
+                <a href="{{ sponsor.url }}" target="_blank" class="sponsor-rt" title="{{ sponsor.name }}">
+                  <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
+                </a>
               {% endfor %}
             </div>
           </div>
@@ -323,15 +315,13 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
           <div class="row row-bm-line">
             <div class="wrap-col-1">
               <div class="wrap-col-2">
-                <div class="col col-sm-30 col-xs-100 col-lt">
+                <div class="col col-sm-30 col-lt col-xs-100">
                   <p class="medium-2">{{ sponsor.title }}</p>
                 </div>
-                <div class="col col-sm-70 col-xs-100 col-rt">
-                  <div class="sponsor-rt">
-                    <a href="{{ sponsor.url }}" target="_blank" title="{{ sponsor.name }}">
-                      <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
-                    </a>
-                  </div>
+                <div class="col col-sm-70 col-rt col-xs-100">
+                  <a href="{{ sponsor.url }}" target="_blank" class="sponsor-rt" title="{{ sponsor.name }}">
+                    <img src="{{ sponsor.image_url }}" alt="{{ sponsor.name }}">
+                  </a>
                 </div>
               </div>
             </div>
@@ -347,16 +337,14 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
   <section id="contact" class="main-section bg-maroon">
     <div class="container">
       <div class="row">
-        <div class="col col-sm-100 col-xs-100">
+        <div class="col col-sm-100">
           <div class="box-sr box-contact">
-            <div style="margin-bottom:40px;">
-              <p class="medium-2">To get more information about the conference and to contact the organizer, <a href="mailto:rubyconf@perkodi.org">feel free to reach us</a>.</p>
-            </div>
+            <p class="medium-2">To get more information about the conference and to contact the organizer, <a href="mailto:rubyconf@perkodi.org">feel free to reach us</a>.</p>
           </div>
         </div>
-        <div class="col col-sm-15 col-xs-100">
+        <div class="col col-sm-15">
         </div>
-        <div class="col col-sm-80 col-xs-100">
+        <div class="col col-sm-80">
         </div>
       </div>
       <div class="row">
