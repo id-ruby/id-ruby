@@ -5,9 +5,9 @@
 
 - name: Ageng Mufti Syafii Hakim
   image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
-  short_bio: I'm software engineer in vidio.com, working mainly with ruby and Ruby on Rails.
+  short_bio: "I'm a software engineer at vidio.com, usually working with Ruby and Ruby on Rails."
   title: Writing DNS over HTTPS Server in Ruby
-  abstract: As software engineer, especially web developer, it will be nice if we know how HTTP and DNS works, the foundation on which world wide web is built upon. In this talk we will learn how HTTP and Domain Name resolution works, then we will build DNS over HTTPS as a study case.
+  abstract: "What happens after someone typed URL into a web browser, or when an application sends a request to the API endpoint for the first time? As a software engineer or web developer, it would be nice if we knew how domain name lookup and HTTP work, an important part on which the World Wide Web was built. Meanwhile, with privacy concerns arise, DNS over HTTPS (DoH) has gained popularity lately. Its use can prevent the recording and modification of information about the destination host by a third party. Many browsers and HTTP clients, such as Firefox and cURL, can already use DoH. In this talk, we will learn how the process of domain name lookup and HTTP server works by writing a DoH server in Ruby."
 
 - name: Burhanudin Hakim
   image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
