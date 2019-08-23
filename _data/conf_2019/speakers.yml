@@ -22,6 +22,14 @@
 
     The talk doesn't require any previous knowledge of types and should be accessible to a broad audience."
 
+- name: Christian Bruckmayer
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  short_bio: "Christian Bruckmayer originally from Nuremberg, Germany, but just recently migrated to the south west of England. In his day job, he makes everyday cooking fun at Cookpad, the best place to find and share home cooked recipes. Since 2014 he is an avid open source contributor hacking for instance on JRuby, openSUSE Linux or various gems. If he's not hacking Ruby, he's out doing what 'young' people do: traveling the world, skiing in the alps or going to concerts of his favorite bands."
+  title: Digesting MRI by Studying Alternative Ruby Implementations
+  abstract: "Pointers, managing memory and static typing - writing C code is hard! However, most programming languages, including Matz's Ruby Interpreter (MRI), are implemented in a low level programming language. So you think without knowing these concepts, you can not contribute to Ruby? Wrong! Although MRI is implemented in C, fortunately there are Ruby's in Java, Go and even Ruby itself.
+
+    If you ever wanted to learn about Ruby internals without being a C expert, this talk is for you. Join me on my journey of re-implementing hash maps in JRuby, breaking bundler and actually learn to write (some) C code."
+
 - name: Muhammad Himanghadi Aynun Bihaj Sharatun
   image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
   short_bio: "I was a machine learning engineer that start a new journey as back-end Engineer at Bukalapak last year. Currently, I focus on developing loyalty point feature for Mitra Bukalapak using Ruby on Rails with the help of my amazing team mate. I believe that the ultimate form of learning is when you celebrate your mistake by sharing to other and ensure that no one makes the same mistake. That's why I'm looking forward to share my experience as back-end engineer at Bukalapak with ruby community."
@@ -59,9 +67,3 @@
   short_bio: Started off as a Visual Designer and Software Engineer for 4 years; Currently working as Subject Matter Expert and Syllabus Developer at Hacktiv8 Jakarta, teach everything about programming including Ruby.
   title: "Ruby: The Reality Stone"
   abstract: "This hidden gems will save your life; One of six Infinity Stone that could shape your reality, because everything will be your object you can manipulate. Legend has it the stone called Ruby. Ruby's flexibility and expressiveness makes it great for performing signature moves (DSLs) and forging armors (frameworks) and for making spells (writing code) with very little boilerplate (no gauntlet needed). And after more than a decade, Ruby is still the easiest language you can learn. So prepare your minecart, put it on Rails, and get your own Ruby: The Reality Stone."
-
-- name: Waiting for confirmation
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
-  short_bio:
-  title:
-  abstract:
