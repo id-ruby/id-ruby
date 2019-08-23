@@ -28,6 +28,12 @@
   title: How Database Index Optimize Your Query for Dummies
   abstract: "Leaky abstraction is a case when something goes wrong with abstraction that we use, but we don’t know why. Most likely it happens simply because we forget or too lazy to understand the system behind the abstraction. This case is also happen in query optimization especially when it involves index. Using Ruby ORM such as ActiveRecord or Sequel is convenient. It does a good job to abstract how query planner, and storage engine actually works, but sometimes it creates misconception that results into slow queries or inefficient use of index. On the other hand trying to understand how index actually implemented in various storage engine is quite challenging. Therefore by using simple mental map that visualizes index as some variation of sorted hash-map, we will discuss BTree database indexing in InnoDB Engine. Once we understand the fundamental concept of database index, then we will discuss various query example and try to analyze which query is inefficient and why."
 
+- name: Opan Mustopah
+  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  short_bio: "Software Engineer at GOJEK. Previously work at Virkea and Niaga Sarana Teknologi. Started using Ruby around mid-2015. Started to explore library outside Rails environment."
+  title: "Introducing Hanami and Hanami as Ruby on Rails alternative"
+  abstract: "What is Hanami? Can Hanami compete with Ruby on Rails as the most famous web-framework in Ruby ecosystem? Why you should start to try and use Hanami? In this talk, I will discuss this thing and my opinion about this."
+
 - name: Paul Joe George
   image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
   short_bio:
@@ -53,12 +59,6 @@
   short_bio: Started off as a Visual Designer and Software Engineer for 4 years; Currently working as Subject Matter Expert and Syllabus Developer at Hacktiv8 Jakarta, teach everything about programming including Ruby.
   title: "Ruby: The Reality Stone"
   abstract: "This hidden gems will save your life; One of six Infinity Stone that could shape your reality, because everything will be your object you can manipulate. Legend has it the stone called Ruby. Ruby's flexibility and expressiveness makes it great for performing signature moves (DSLs) and forging armors (frameworks) and for making spells (writing code) with very little boilerplate (no gauntlet needed). And after more than a decade, Ruby is still the easiest language you can learn. So prepare your minecart, put it on Rails, and get your own Ruby: The Reality Stone."
-
-- name: Waiting for confirmation
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
-  short_bio:
-  title:
-  abstract:
 
 - name: Waiting for confirmation
   image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
