@@ -10,8 +10,10 @@
   image_url: https://res.cloudinary.com/perkodi/image/upload/v1563630231/rubyconfid2019/keynote-akira.jpg
   note: Conference Keynote
   short_bio: "Rails committer. Ruby committer. amatsuda on GitHub. Creator of Kaminari. Founder of Asakusa.rb. Chief organizer of RubyKaigi. A Ruby Hero in Tokyo"
-  title: Coming Soon
-  abstract:
+  title: Rails Performance Issues and Solutions
+  abstract: "Ruby on Rails today has various kinds of performance issues. Request handling is slow, routes resolution is slow, Active Record is slow, view rendering is slow, building JSON is slow, I18n is slow, booting the app is slow, testing is slow, etc etc.
+
+    In this session, we're going to dive into a dozen of possible performance hotspots in Rails, and deeply investigate the approaches and techniques for optimizing each of them."
 
 - name: Ryan Bigg
   url: https://ryanbigg.com/

@@ -23,18 +23,20 @@
     The talk doesn't require any previous knowledge of types and should be accessible to a broad audience."
 
 - name: Christian Bruckmayer
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1567002492/rubyconfid2019/speaker_christian_cufv9w.jpg
   short_bio: "Christian Bruckmayer originally from Nuremberg, Germany, but just recently migrated to the south west of England. In his day job, he makes everyday cooking fun at Cookpad, the best place to find and share home cooked recipes. Since 2014 he is an avid open source contributor hacking for instance on JRuby, openSUSE Linux or various gems. If he's not hacking Ruby, he's out doing what 'young' people do: traveling the world, skiing in the alps or going to concerts of his favorite bands."
   title: Digesting MRI by Studying Alternative Ruby Implementations
   abstract: "Pointers, managing memory and static typing - writing C code is hard! However, most programming languages, including Matz's Ruby Interpreter (MRI), are implemented in a low level programming language. So you think without knowing these concepts, you can not contribute to Ruby? Wrong! Although MRI is implemented in C, fortunately there are Ruby's in Java, Go and even Ruby itself.
 
     If you ever wanted to learn about Ruby internals without being a C expert, this talk is for you. Join me on my journey of re-implementing hash maps in JRuby, breaking bundler and actually learn to write (some) C code."
+  url: https://bruckmayer.net/
 
-- name: Muhammad Himanghadi Aynun Bihaj Sharatun
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+- name: Himang Sharatun
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1567002492/rubyconfid2019/speaker_himangs_qqfwx2.jpg
   short_bio: "I was a machine learning engineer that start a new journey as back-end Engineer at Bukalapak last year. Currently, I focus on developing loyalty point feature for Mitra Bukalapak using Ruby on Rails with the help of my amazing team mate. I believe that the ultimate form of learning is when you celebrate your mistake by sharing to other and ensure that no one makes the same mistake. That's why I'm looking forward to share my experience as back-end engineer at Bukalapak with ruby community."
   title: How Database Index Optimize Your Query for Dummies
   abstract: "Leaky abstraction is a case when something goes wrong with abstraction that we use, but we don’t know why. Most likely it happens simply because we forget or too lazy to understand the system behind the abstraction. This case is also happen in query optimization especially when it involves index. Using Ruby ORM such as ActiveRecord or Sequel is convenient. It does a good job to abstract how query planner, and storage engine actually works, but sometimes it creates misconception that results into slow queries or inefficient use of index. On the other hand trying to understand how index actually implemented in various storage engine is quite challenging. Therefore by using simple mental map that visualizes index as some variation of sorted hash-map, we will discuss BTree database indexing in InnoDB Engine. Once we understand the fundamental concept of database index, then we will discuss various query example and try to analyze which query is inefficient and why."
+  url: https://medium.com/@himang27s
 
 - name: Opan Mustopah
   image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
@@ -43,8 +45,8 @@
   abstract: "What is Hanami? Can Hanami compete with Ruby on Rails as the most famous web-framework in Ruby ecosystem? Why you should start to try and use Hanami? In this talk, I will discuss this thing and my opinion about this."
 
 - name: Paul Joe George
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
-  short_bio:
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1567002492/rubyconfid2019/speaker_pauljoe_bkwemk.jpg
+  short_bio: "I am a programmer of Monstar Lab, Shimane office, Japan."
   title: Motor-on-voice, an experiment using mruby/c and Sinatra
   abstract: "The usage of smart assistants is rapidly increasing day by day.
     Smart assistants can keep things simple and easily accessible.
@@ -55,12 +57,14 @@
     This is an experiment to trigger motor and check the motor's running status by using voice commands.
 
     API’s required for Alexa Skill is developed using Sinatra, a Ruby web application framework and Motor operations are implemented by using mruby/c"
+  url: https://github.com/paul-ml
 
-- name: प्रथमेश (Pratamesh) Sonpatki
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+- name: Prathamesh Sonpatki
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1567002492/rubyconfid2019/speaker_prathamesh_gt75sc.jpg
   short_bio: "Prathamesh is developer at Memory.ai. He builds web apps using Rails and React.js!. He is interested in open source and contributes to many Ruby and Rails related projects. He is part of Rails issues team and contributes heavily to Ruby on Rails and related projects. He likes Emacs operating system a lot and can be found constantly tweaking his .emacs.d"
   title: State of the art of managing assets in the new Rails world
   abstract: "Rails 6 will use webpacker to manage JavaScript code instead of asset pipeline aka sprockets. We have lot of questions to answer. Why webpacker? What does it bring to the table? What about my old code? Is Webpacker same as the old asset pipeline? In this talk we will unravel this mystery and see ways to manage our same old JavaScript in a whole new way."
+  url: https://prathamesh.tech
 
 - name: Raka Ardhi
   image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
