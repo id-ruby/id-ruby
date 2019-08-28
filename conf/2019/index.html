@@ -104,7 +104,7 @@ open_graph_image: /assets/conf/banner-rubyconf-indonesia-2019.jpg
               {% endif %}
             </div>
             <div class="col col-sm-80">
-              <p class="medium-3">{{ speaker.name }}</p>
+              <p class="medium-3"><a href="{{ speaker.url }}" target="_blank">{{ speaker.name }}</a></p>
               <p class="medium-4"><strong>Title:</strong> {{ speaker.title }}</p>
               <p>{{ speaker.abstract }}</p>
               <p><a href="#" data-behavior="buttonToggle" data-target="#speaker{{ forloop.index }}" class="button button-round button-grey">Show Bio</a></p>
