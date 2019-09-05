@@ -88,6 +88,11 @@
   image_url: images/logo_kmk.png
   description: Currently owns and operates BBM, Liputan6.com, Vidio.com, Bintang.com, Bola.com and KlikDokter.com.
 
+- name: Mekari
+  url: https://mekari.com/
+  image_url: images/logo_mekari.png
+  description: Mekari is a cloud-based business platform that helps Indonesian SME increase their business productivity simplify HR, accounting and tax with technology.
+
 - name: Midtrans
   url: http://midtrans.com
   image_url: images/logo_midtrans.png
