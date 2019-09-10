@@ -10,7 +10,7 @@
   abstract: "What happens after someone typed URL into a web browser, or when an application sends a request to the API endpoint for the first time? As a software engineer or web developer, it would be nice if we knew how domain name lookup and HTTP work, an important part on which the World Wide Web was built. Meanwhile, with privacy concerns arise, DNS over HTTPS (DoH) has gained popularity lately. Its use can prevent the recording and modification of information about the destination host by a third party. Many browsers and HTTP clients, such as Firefox and cURL, can already use DoH. In this talk, we will learn how the process of domain name lookup and HTTP server works by writing a DoH server in Ruby."
 
 - name: Burhanudin Hakim
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1568099306/rubyconfid2019/speaker_burhan_nm34bt.jpg
   short_bio: "I'm Software Engineer with Ruby as primary programming language"
   title: Trying Sorbet for the first time
   abstract: "We have developed a data pipeline application using Ruby with a goal of helping clients automate synchronizing their Sales Report from Accounting System to CRM.
@@ -21,6 +21,7 @@
     - lesson learned
 
     The talk doesn't require any previous knowledge of types and should be accessible to a broad audience."
+  url: "https://twitter.com/udnpico"
 
 - name: Christian Bruckmayer
   image_url: https://res.cloudinary.com/perkodi/image/upload/v1567002492/rubyconfid2019/speaker_christian_cufv9w.jpg
@@ -39,7 +40,7 @@
   url: https://medium.com/@himang27s
 
 - name: Opan Mustopah
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1568099306/rubyconfid2019/speaker_opan_sa25kt.jpg
   short_bio: "Software Engineer at GOJEK. Previously work at Virkea and Niaga Sarana Teknologi. Started using Ruby around mid-2015. Started to explore library outside Rails environment."
   title: "Introducing Hanami and Hanami as Ruby on Rails alternative"
   abstract: "What is Hanami? Can Hanami compete with Ruby on Rails as the most famous web-framework in Ruby ecosystem? Why you should start to try and use Hanami? In this talk, I will discuss this thing and my opinion about this."
