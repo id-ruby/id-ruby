@@ -26,6 +26,8 @@ namespace :site do
       cp_r "_site/.", tmp
       Dir.chdir tmp
       system "git init"
+      system "git config user.name id-ruby"
+      system "git config user.email team@perkodi.org"
       system "git add ."
       message = "Site updated at #{Time.now.utc}"
       system "git commit -m #{message.inspect}"
