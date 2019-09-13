@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@master
-    - uses: EdricChan03/action-build-deploy-ghpages@v2.0.0
+    - uses: EdricChan03/action-build-deploy-ghpages@v2.0.1
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         gh-pages-token: ${{ secrets.GH_PAGES_TOKEN }}
