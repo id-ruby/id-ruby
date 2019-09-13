@@ -68,7 +68,8 @@
   url: https://prathamesh.tech
 
 - name: Raka Ardhi
-  image_url: https://res.cloudinary.com/perkodi/image/upload/t_media_lib_thumb/rubyconfid2019/coming-soon.jpg
+  image_url: https://res.cloudinary.com/perkodi/image/upload/v1568394268/rubyconfid2019/speaker_raka_s4wxht.jpg
   short_bio: Started off as a Visual Designer and Software Engineer for 4 years; Currently working as Subject Matter Expert and Syllabus Developer at Hacktiv8 Jakarta, teach everything about programming including Ruby.
   title: "Ruby: The Reality Stone"
   abstract: "This hidden gems will save your life; One of six Infinity Stone that could shape your reality, because everything will be your object you can manipulate. Legend has it the stone called Ruby. Ruby's flexibility and expressiveness makes it great for performing signature moves (DSLs) and forging armors (frameworks) and for making spells (writing code) with very little boilerplate (no gauntlet needed). And after more than a decade, Ruby is still the easiest language you can learn. So prepare your minecart, put it on Rails, and get your own Ruby: The Reality Stone."
+  url: https://ardhiraka.com
