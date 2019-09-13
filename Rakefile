@@ -22,6 +22,8 @@ namespace :site do
 
   desc "Generate and publish blog to gh-pages"
   task :publish => [:generate] do
+    current_directory = Dir.pwd
+
     Dir.mktmpdir do |tmp|
       cp_r "_site/.", tmp
       Dir.chdir tmp
@@ -33,6 +35,7 @@ namespace :site do
       system "git commit -m #{message.inspect}"
       system "git remote add origin #{git_origin}"
       system "git push origin master:refs/heads/gh-pages --force"
+      Dir.chdir current_directory
     end
   end
 
