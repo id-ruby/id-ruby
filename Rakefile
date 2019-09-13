@@ -7,6 +7,7 @@ require "jekyll"
 
 # Change your GitHub reponame eg. "kippt/jekyll-incorporated"
 GITHUB_REPONAME = "id-ruby/id-ruby"
+GH_PAGES_TOKEN = ENV["GH_PAGES_TOKEN"]
 
 
 namespace :site do
@@ -28,8 +29,16 @@ namespace :site do
       system "git add ."
       message = "Site updated at #{Time.now.utc}"
       system "git commit -m #{message.inspect}"
-      system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
+      system "git remote add origin #{git_origin}"
       system "git push origin master:refs/heads/gh-pages --force"
+    end
+  end
+
+  def git_origin
+    if GH_PAGES_TOKEN
+      "https://x-access-token:#{GH_PAGES_TOKEN}@github.com/#{GITHUB_REPONAME}.git"
+    else
+      "git@github.com:#{GITHUB_REPONAME}.git"
     end
   end
 end

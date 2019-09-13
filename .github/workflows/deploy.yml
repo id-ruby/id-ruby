@@ -11,8 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@master
-    - uses: EdricChan03/action-build-deploy-ghpages@v2.0.1
+    - name: Checkout to master
+      uses: actions/checkout@master
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        gh-pages-token: ${{ secrets.GH_PAGES_TOKEN }}
+        ruby-version: 2.6.x
+    - uses: Build and Deploy
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+        bundle exec rake site:publish
+      env:
+        GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
