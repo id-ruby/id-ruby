@@ -9,4 +9,4 @@ gem 'uglifier'
 gem 'github-pages'
 gem 'jekyll-paginate'
 gem "nokogiri", "~> 1.10.4"
-gem "rack", "~> 1.6.11"
+gem "rack", "~> 1.6.12"
