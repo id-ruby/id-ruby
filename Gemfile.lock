@@ -223,7 +223,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
-    rack (1.6.11)
+    rack (1.6.12)
     rake (12.3.2)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
@@ -266,7 +266,7 @@ DEPENDENCIES
   jekyll-paginate
   kramdown
   nokogiri (~> 1.10.4)
-  rack (~> 1.6.11)
+  rack (~> 1.6.12)
   rake
   sass
   uglifier
