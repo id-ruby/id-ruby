@@ -8,5 +8,5 @@ gem 'sass'
 gem 'uglifier'
 gem 'github-pages'
 gem 'jekyll-paginate'
-gem "nokogiri", "~> 1.10.8"
+gem "nokogiri", "~> 1.11.4"
 gem "rack", "~> 1.6.12"
