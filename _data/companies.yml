@@ -88,6 +88,11 @@
   image_url: images/logo_kmk.png
   description: Currently owns and operates BBM, Liputan6.com, Vidio.com, Bintang.com, Bola.com and KlikDokter.com.
 
+- name: Kulkul Tech
+  url: https://kulkul.tech
+  image_url: images/logo_kulkul.png
+  description: Leading software development partner in Southeast Asia. We invest in people and excellent software.
+
 - name: Mekari
   url: https://mekari.com/
   image_url: images/logo_mekari.png
