@@ -28,6 +28,11 @@
   image_url: images/logo_binar.png
   description: Binar Academy adalah akademi non-formal dengan program full scholarship untuk siapapun yang ingin belajar dan memberikan social impact
 
+- name: Bintang Digital Asia
+  url: https://bintangdigitalasia.com/
+  image_url: images/logo_bda.png
+  description: Unlocking your business growth with enterprise-grade IoT solution.
+
 - name: Bukalapak
   url: http://bukalapak.com
   image_url: images/logo_bukalapak.png
@@ -162,3 +167,13 @@
   url: https://wgs.co.id/
   image_url: images/logo_wgs.png
   description: One of the largest IT service company offering programming outsourcing, personalized business and enterprise solutions.
+
+- name: Wispay
+  url: https://wis-pay.com/
+  image_url: images/logo_wispay.png
+  description: Beli atau jual pulsa, bayar tagihan PLN, top up e-wallet, hingga layanan PPOB lainnya—semua bisa kamu lakukan dengan cepat, mudah, dan aman lewat satu aplikasi.
+
+- name: Wiswis
+  url: https://wis-wis.com/
+  image_url: images/logo_wiswis.png
+  description: Your everyday social gaming platform—Play awesome games with friends for free, whenever and wherever you are.
