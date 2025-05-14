@@ -18,7 +18,7 @@ jobs:
           ruby-version: 2.6.10
       - name: Set up gems
         run: |
-          gem install bundler
+          gem install bundler -v 2.4.22
           bundle install --jobs 4 --retry 3
       - name: Deploy site
         run: bundle exec rake site:publish
