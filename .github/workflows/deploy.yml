@@ -7,21 +7,20 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout to master
-      uses: actions/checkout@master
-    - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: 2.6.x
-    - name: Set up gems
-      run: |
-        gem install bundler
-        bundle install --jobs 4 --retry 3
-    - name: Deploy site
-      run: bundle exec rake site:publish
-      env:
-        GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
+      - name: Checkout to master
+        uses: actions/checkout@master
+      - name: Set up Ruby 2.6
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+      - name: Set up gems
+        run: |
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+      - name: Deploy site
+        run: bundle exec rake site:publish
+        env:
+          GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
