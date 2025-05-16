@@ -63,6 +63,11 @@
   image_url: images/logo_gojek.png
   description: GO-JEK adalah sebuah perusahaan teknologi berjiwa sosial yang bertujuan untuk meningkatkan kesejahteraan pekerja di berbagai sektor informal di Indonesia.
 
+- name: Happy5
+  url: https://www.happy5.co
+  image_url: images/logo_happy5.png
+  description: The performance management tool for HR, managers, and employees.
+
 - name: HIJUP
   url: https://www.hijup.com/
   image_url: images/logo_hijup.png
