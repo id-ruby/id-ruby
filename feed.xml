@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://ruby.id</link>
+    <atom:link href="http://ruby.id/feed.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <language>en-us</language>
+    <pubDate>Sat, 17 May 2025 06:58:22 +0000</pubDate>
+    <lastBuildDate>Sat, 17 May 2025 06:58:22 +0000</lastBuildDate>
+
+    
+    
+    <item>
+      <title>id-ruby Official Community Partner - Tech in Asia PDC’17</title>
+      <link>http://ruby.id/2017/07/04/pdc_17/</link>
+      <pubDate>Tue, 04 Jul 2017 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://ruby.id/2017/07/04/pdc_17</guid>
+      <description>&lt;p&gt;Halo semua, kami ingin menginformasikan bahwa id-ruby menjadi official community partner untuk event Tech in Asia PDC’17.&lt;/p&gt;
+
+&lt;p&gt;Event &lt;a href=&quot;http://events.techinasia.com/pdc/&quot; target=&quot;_blank&quot;&gt;Product Development Conference 2017&lt;/a&gt; (atau disingkat PDC’17) merupakan konferensi teknologi yang diselenggarakan oleh Tech in Asia dimana pada acara tersebut akan berkumpul developer dari berbagai komunitas, praktisi dan pakar dari industri teknologi yang akan saling sharing mengenai metode pengembangan produk yang efektif dan praktikal serta dapat langsung diimplementasikan.&lt;/p&gt;
+
+&lt;p&gt;Sebagai official community partner &lt;a href=&quot;http://events.techinasia.com/pdc/&quot; target=&quot;_blank&quot;&gt;PDC’17&lt;/a&gt;, id-ruby mengajakmu untuk turut serta hadir di &lt;strong&gt;Balai Kartini 9-10 Agustus&lt;/strong&gt; mendatang.&lt;/p&gt;
+
+&lt;p&gt;Gunakan kode kupon dari kami untuk mendapatkan diskon tambahan sebesar 5% dari diskon yang sedang berjalan sekarang untuk setiap pembelian “ Single Ticket ”! Masukkan kode promo &lt;strong&gt;IDRUBY&lt;/strong&gt; saat registrasi pemesanan tiket di halaman “Confirmation” ( &lt;a href=&quot;https://www.dropbox.com/s/2vtxf2zjy1rkqwn/Screen%20Shot%202017-06-15%20at%202.07.07%20PM.png?dl=0&quot; target=&quot;_blank&quot;&gt;keterangan gambar&lt;/a&gt; ). Reservasi tiketmu segera karena promo diskon 60% ini terbatas hingga 11 Juli 2017!&lt;/p&gt;
+
+&lt;p&gt;Tunggu apa lagi? Segera pesan tiket PDC’17 di &lt;a href=&quot;http://events.techinasia.com/pdc/get-tickets/&quot; target=&quot;_blank&quot;&gt;http://events.techinasia.com/pdc/get-tickets/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sampai jumpa!&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>id-ruby Redesign & New Home</title>
+      <link>http://ruby.id/2017/01/15/redesign/</link>
+      <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://ruby.id/2017/01/15/redesign</guid>
+      <description>&lt;p&gt;Hi everyone, we just completely redesign our new website and move from our previous domain: &lt;a href=&quot;http://id-ruby.org&quot; target=&quot;_blank&quot;&gt;id-ruby.org&lt;/a&gt; into this shiny, new domain: &lt;a href=&quot;http://ruby.id&quot; target=&quot;_blank&quot;&gt;ruby.id&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;At our front page, you can see all companies in Indonesia, which use Ruby. If your company isn’t listed yet, you can make a pull request to this &lt;a href=&quot;http://github.com/id-ruby/id-ruby&quot; target=&quot;_blank&quot;&gt;repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t forget to check our &lt;a href=&quot;http://meetup.com/jakartarb&quot; target=&quot;_blank&quot;&gt;meetup&lt;/a&gt; for coming meetups!.&lt;/p&gt;
+
+&lt;p&gt;You may refer to our &lt;a href=&quot;http://twitter.com/id_ruby&quot; target=&quot;_blank&quot;&gt;twitter&lt;/a&gt; and &lt;a href=&quot;http://tinyurl.com/id-ruby-slack&quot; target=&quot;_blank&quot;&gt;slack&lt;/a&gt; for updates.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+
+  </channel> 
+</rss>
